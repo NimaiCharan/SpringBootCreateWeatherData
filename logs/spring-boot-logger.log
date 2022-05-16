@@ -1,0 +1,721 @@
+2022-05-10 15:57:09,537 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting CreateWeatherDataApplication using Java 17.0.2 on DESKTOP-4UB1T6N with PID 9660 (E:\ECLIPSE_WORKSPACE\CreateWeatherData\target\classes started by nimai in E:\ECLIPSE_WORKSPACE\CreateWeatherData)
+2022-05-10 15:57:09,538 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.6.7, Spring v5.3.19
+2022-05-10 15:57:09,539 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-05-10 15:57:09,953 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-10 15:57:09,988 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 33 ms. Found 1 JPA repository interfaces.
+2022-05-10 15:57:10,364 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-12 - Starting...
+2022-05-10 15:57:10,441 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-12 - Start completed.
+2022-05-10 15:57:10,611 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-10 15:57:10,623 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-05-10 15:57:10,783 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-10 15:57:10,784 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-10 15:57:11,875 WARN org.springframework.boot.autoconfigure.batch.JpaBatchConfigurer [restartedMain] JPA does not support custom isolation levels, so locks may not be taken when launching Jobs
+2022-05-10 15:57:11,878 INFO org.springframework.batch.core.repository.support.JobRepositoryFactoryBean [restartedMain] No database type set, using meta data indicating: MYSQL
+2022-05-10 15:57:11,879 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher [restartedMain] No TaskExecutor has been set, defaulting to synchronous executor.
+2022-05-10 15:57:11,990 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-05-10 15:57:12,039 INFO org.springframework.boot.web.embedded.netty.NettyWebServer [restartedMain] Netty started on port 8080
+2022-05-10 15:57:12,055 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started CreateWeatherDataApplication in 2.915 seconds (JVM running for 83362.846)
+2022-05-10 15:57:12,056 INFO org.springframework.boot.autoconfigure.batch.JobLauncherApplicationRunner [restartedMain] Running default command line with: []
+2022-05-10 15:57:12,591 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [restartedMain] Job: [SimpleJob: [name=customerReportJob]] launched with the following parameters: [{run.id=15}]
+2022-05-10 15:57:13,534 INFO org.springframework.batch.core.job.SimpleStepHandler [restartedMain] Executing step: [CreateData]
+2022-05-10 15:57:15,751 INFO org.springframework.batch.core.step.AbstractStep [restartedMain] Step: [CreateData] executed in 2s216ms
+2022-05-10 15:57:15,959 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [restartedMain] Job: [SimpleJob: [name=customerReportJob]] completed with the following parameters: [{run.id=15}] and the following status: [COMPLETED] in 3s281ms
+2022-05-10 15:57:15,961 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2022-05-10 15:58:32,137 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-82] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-10 15:58:32,140 INFO com.zaxxer.hikari.HikariDataSource [Thread-82] HikariPool-12 - Shutdown initiated...
+2022-05-10 15:58:32,153 INFO com.zaxxer.hikari.HikariDataSource [Thread-82] HikariPool-12 - Shutdown completed.
+2022-05-10 15:58:34,452 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting CreateWeatherDataApplication using Java 17.0.2 on DESKTOP-4UB1T6N with PID 9660 (E:\ECLIPSE_WORKSPACE\CreateWeatherData\target\classes started by nimai in E:\ECLIPSE_WORKSPACE\CreateWeatherData)
+2022-05-10 15:58:34,452 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.6.7, Spring v5.3.19
+2022-05-10 15:58:34,452 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-05-10 15:58:34,661 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-10 15:58:34,671 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 9 ms. Found 1 JPA repository interfaces.
+2022-05-10 15:58:34,762 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-13 - Starting...
+2022-05-10 15:58:34,784 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-13 - Start completed.
+2022-05-10 15:58:34,956 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-10 15:58:34,966 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-05-10 15:58:35,070 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-10 15:58:35,071 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-10 15:58:35,294 WARN org.springframework.boot.autoconfigure.batch.JpaBatchConfigurer [restartedMain] JPA does not support custom isolation levels, so locks may not be taken when launching Jobs
+2022-05-10 15:58:35,294 INFO org.springframework.batch.core.repository.support.JobRepositoryFactoryBean [restartedMain] No database type set, using meta data indicating: MYSQL
+2022-05-10 15:58:35,295 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher [restartedMain] No TaskExecutor has been set, defaulting to synchronous executor.
+2022-05-10 15:58:35,325 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-05-10 15:58:35,430 INFO org.springframework.boot.web.embedded.netty.NettyWebServer [restartedMain] Netty started on port 8080
+2022-05-10 15:58:35,437 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started CreateWeatherDataApplication in 1.036 seconds (JVM running for 83446.228)
+2022-05-10 15:58:35,439 INFO org.springframework.boot.autoconfigure.batch.JobLauncherApplicationRunner [restartedMain] Running default command line with: []
+2022-05-10 15:58:35,796 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [restartedMain] Job: [SimpleJob: [name=customerReportJob]] launched with the following parameters: [{run.id=16}]
+2022-05-10 15:58:36,074 INFO org.springframework.batch.core.job.SimpleStepHandler [restartedMain] Executing step: [CreateData]
+2022-05-10 15:58:37,394 INFO org.springframework.batch.core.step.AbstractStep [restartedMain] Step: [CreateData] executed in 1s320ms
+2022-05-10 15:58:37,534 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [restartedMain] Job: [SimpleJob: [name=customerReportJob]] completed with the following parameters: [{run.id=16}] and the following status: [COMPLETED] in 1s675ms
+2022-05-10 15:58:37,536 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2022-05-10 16:03:45,156 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-92] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-10 16:03:45,157 INFO com.zaxxer.hikari.HikariDataSource [Thread-92] HikariPool-13 - Shutdown initiated...
+2022-05-10 16:03:45,164 INFO com.zaxxer.hikari.HikariDataSource [Thread-92] HikariPool-13 - Shutdown completed.
+2022-05-10 16:03:47,415 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting CreateWeatherDataApplication using Java 17.0.2 on DESKTOP-4UB1T6N with PID 9660 (E:\ECLIPSE_WORKSPACE\CreateWeatherData\target\classes started by nimai in E:\ECLIPSE_WORKSPACE\CreateWeatherData)
+2022-05-10 16:03:47,415 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.6.7, Spring v5.3.19
+2022-05-10 16:03:47,415 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-05-10 16:03:47,618 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-10 16:03:47,627 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 8 ms. Found 1 JPA repository interfaces.
+2022-05-10 16:03:47,724 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-14 - Starting...
+2022-05-10 16:03:47,807 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-14 - Start completed.
+2022-05-10 16:03:47,964 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-10 16:03:47,975 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-05-10 16:03:48,145 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-10 16:03:48,146 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-10 16:03:48,420 WARN org.springframework.boot.autoconfigure.batch.JpaBatchConfigurer [restartedMain] JPA does not support custom isolation levels, so locks may not be taken when launching Jobs
+2022-05-10 16:03:48,421 INFO org.springframework.batch.core.repository.support.JobRepositoryFactoryBean [restartedMain] No database type set, using meta data indicating: MYSQL
+2022-05-10 16:03:48,422 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher [restartedMain] No TaskExecutor has been set, defaulting to synchronous executor.
+2022-05-10 16:03:48,451 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-05-10 16:03:48,469 INFO org.springframework.boot.web.embedded.netty.NettyWebServer [restartedMain] Netty started on port 8080
+2022-05-10 16:03:48,478 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started CreateWeatherDataApplication in 1.112 seconds (JVM running for 83759.268)
+2022-05-10 16:03:48,479 INFO org.springframework.boot.autoconfigure.batch.JobLauncherApplicationRunner [restartedMain] Running default command line with: []
+2022-05-10 16:03:48,944 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [restartedMain] Job: [SimpleJob: [name=customerReportJob]] launched with the following parameters: [{run.id=17}]
+2022-05-10 16:03:49,512 INFO org.springframework.batch.core.job.SimpleStepHandler [restartedMain] Executing step: [CreateData]
+2022-05-10 16:03:49,657 DEBUG com.iqnext.tasklet.CreateWeatherData [restartedMain] CreateWeatherData taskelet Started
+2022-05-10 16:03:49,658 DEBUG com.iqnext.tasklet.CreateWeatherData [restartedMain] Fetching Data from WeatherAPI
+2022-05-10 16:03:50,671 DEBUG com.iqnext.tasklet.CreateWeatherData [restartedMain] DATA Fetched from WeatherAPI
+2022-05-10 16:03:50,742 DEBUG com.iqnext.tasklet.CreateWeatherData [restartedMain] DATA Written to Database Successfully
+2022-05-10 16:03:50,853 INFO org.springframework.batch.core.step.AbstractStep [restartedMain] Step: [CreateData] executed in 1s340ms
+2022-05-10 16:03:50,994 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [restartedMain] Job: [SimpleJob: [name=customerReportJob]] completed with the following parameters: [{run.id=17}] and the following status: [COMPLETED] in 2s5ms
+2022-05-10 16:03:50,997 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2022-05-10 16:04:25,618 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-100] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-10 16:04:25,619 INFO com.zaxxer.hikari.HikariDataSource [Thread-100] HikariPool-14 - Shutdown initiated...
+2022-05-10 16:04:25,625 INFO com.zaxxer.hikari.HikariDataSource [Thread-100] HikariPool-14 - Shutdown completed.
+#logback.classic pattern: %d %-5level [%thread] %logger{0}: %msg%n
+2022-05-10 16:06:10,971 INFO  [restartedMain] CreateWeatherDataApplication: Starting CreateWeatherDataApplication using Java 17.0.2 on DESKTOP-4UB1T6N with PID 9660 (E:\ECLIPSE_WORKSPACE\CreateWeatherData\target\classes started by nimai in E:\ECLIPSE_WORKSPACE\CreateWeatherData)
+2022-05-10 16:06:10,971 DEBUG [restartedMain] CreateWeatherDataApplication: Running with Spring Boot v2.6.7, Spring v5.3.19
+2022-05-10 16:06:10,972 INFO  [restartedMain] CreateWeatherDataApplication: No active profile set, falling back to 1 default profile: "default"
+2022-05-10 16:06:11,168 INFO  [restartedMain] RepositoryConfigurationDelegate: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-10 16:06:11,178 INFO  [restartedMain] RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 9 ms. Found 1 JPA repository interfaces.
+2022-05-10 16:06:11,293 INFO  [restartedMain] HikariDataSource: HikariPool-15 - Starting...
+2022-05-10 16:06:11,322 INFO  [restartedMain] HikariDataSource: HikariPool-15 - Start completed.
+2022-05-10 16:06:11,419 INFO  [restartedMain] LogHelper: HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-10 16:06:11,427 INFO  [restartedMain] Dialect: HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-05-10 16:06:11,536 INFO  [restartedMain] JtaPlatformInitiator: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-10 16:06:11,536 INFO  [restartedMain] LocalContainerEntityManagerFactoryBean: Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-10 16:06:11,805 WARN  [restartedMain] JpaBatchConfigurer: JPA does not support custom isolation levels, so locks may not be taken when launching Jobs
+2022-05-10 16:06:11,806 INFO  [restartedMain] JobRepositoryFactoryBean: No database type set, using meta data indicating: MYSQL
+2022-05-10 16:06:11,807 INFO  [restartedMain] SimpleJobLauncher: No TaskExecutor has been set, defaulting to synchronous executor.
+2022-05-10 16:06:11,841 INFO  [restartedMain] OptionalLiveReloadServer: LiveReload server is running on port 35729
+2022-05-10 16:06:11,906 INFO  [restartedMain] NettyWebServer: Netty started on port 8080
+2022-05-10 16:06:11,916 INFO  [restartedMain] CreateWeatherDataApplication: Started CreateWeatherDataApplication in 1.049 seconds (JVM running for 83902.706)
+2022-05-10 16:06:11,917 INFO  [restartedMain] JobLauncherApplicationRunner: Running default command line with: []
+2022-05-10 16:06:12,171 INFO  [restartedMain] SimpleJobLauncher: Job: [SimpleJob: [name=customerReportJob]] launched with the following parameters: [{run.id=18}]
+2022-05-10 16:06:12,348 INFO  [restartedMain] SimpleStepHandler: Executing step: [CreateData]
+2022-05-10 16:06:12,493 DEBUG [restartedMain] CreateWeatherData: CreateWeatherData taskelet Started
+2022-05-10 16:06:12,494 DEBUG [restartedMain] CreateWeatherData: Fetching Data from WeatherAPI
+2022-05-10 16:06:13,533 DEBUG [restartedMain] CreateWeatherData: DATA Fetched from WeatherAPI
+2022-05-10 16:06:13,601 DEBUG [restartedMain] CreateWeatherData: DATA Written to Database Successfully
+2022-05-10 16:06:13,721 INFO  [restartedMain] AbstractStep: Step: [CreateData] executed in 1s372ms
+2022-05-10 16:06:13,920 INFO  [restartedMain] SimpleJobLauncher: Job: [SimpleJob: [name=customerReportJob]] completed with the following parameters: [{run.id=18}] and the following status: [COMPLETED] in 1s697ms
+2022-05-10 16:06:13,922 INFO  [restartedMain] ConditionEvaluationDeltaLoggingListener: Condition evaluation unchanged
+2022-05-10 16:07:38,764 INFO  [Thread-108] LocalContainerEntityManagerFactoryBean: Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-10 16:07:38,767 INFO  [Thread-108] HikariDataSource: HikariPool-15 - Shutdown initiated...
+2022-05-10 16:07:38,776 INFO  [Thread-108] HikariDataSource: HikariPool-15 - Shutdown completed.
+#logback.classic pattern: %d %-5level [%thread] %logger{0}: %msg%n
+2022-05-10 16:07:41,086 INFO  [restartedMain] CreateWeatherDataApplication: Starting CreateWeatherDataApplication using Java 17.0.2 on DESKTOP-4UB1T6N with PID 9660 (E:\ECLIPSE_WORKSPACE\CreateWeatherData\target\classes started by nimai in E:\ECLIPSE_WORKSPACE\CreateWeatherData)
+2022-05-10 16:07:41,087 DEBUG [restartedMain] CreateWeatherDataApplication: Running with Spring Boot v2.6.7, Spring v5.3.19
+2022-05-10 16:07:41,087 INFO  [restartedMain] CreateWeatherDataApplication: No active profile set, falling back to 1 default profile: "default"
+2022-05-10 16:07:41,371 INFO  [restartedMain] RepositoryConfigurationDelegate: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-10 16:07:41,380 INFO  [restartedMain] RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 8 ms. Found 1 JPA repository interfaces.
+2022-05-10 16:07:41,471 INFO  [restartedMain] HikariDataSource: HikariPool-16 - Starting...
+2022-05-10 16:07:41,493 INFO  [restartedMain] HikariDataSource: HikariPool-16 - Start completed.
+2022-05-10 16:07:41,621 INFO  [restartedMain] LogHelper: HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-10 16:07:41,665 INFO  [restartedMain] Dialect: HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-05-10 16:07:41,777 INFO  [restartedMain] JtaPlatformInitiator: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-10 16:07:41,778 INFO  [restartedMain] LocalContainerEntityManagerFactoryBean: Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-10 16:07:41,980 WARN  [restartedMain] JpaBatchConfigurer: JPA does not support custom isolation levels, so locks may not be taken when launching Jobs
+2022-05-10 16:07:41,980 INFO  [restartedMain] JobRepositoryFactoryBean: No database type set, using meta data indicating: MYSQL
+2022-05-10 16:07:41,981 INFO  [restartedMain] SimpleJobLauncher: No TaskExecutor has been set, defaulting to synchronous executor.
+2022-05-10 16:07:42,019 INFO  [restartedMain] OptionalLiveReloadServer: LiveReload server is running on port 35729
+2022-05-10 16:07:42,037 INFO  [restartedMain] NettyWebServer: Netty started on port 8080
+2022-05-10 16:07:42,044 INFO  [restartedMain] CreateWeatherDataApplication: Started CreateWeatherDataApplication in 1.065 seconds (JVM running for 83992.834)
+2022-05-10 16:07:42,045 INFO  [restartedMain] JobLauncherApplicationRunner: Running default command line with: []
+2022-05-10 16:07:42,370 INFO  [restartedMain] SimpleJobLauncher: Job: [SimpleJob: [name=customerReportJob]] launched with the following parameters: [{run.id=19}]
+2022-05-10 16:07:42,589 INFO  [restartedMain] SimpleStepHandler: Executing step: [CreateData]
+2022-05-10 16:07:42,770 DEBUG [restartedMain] CreateWeatherData: CreateWeatherData taskelet Started
+2022-05-10 16:07:42,771 DEBUG [restartedMain] CreateWeatherData: Fetching Data from WeatherAPI
+2022-05-10 16:07:43,928 DEBUG [restartedMain] CreateWeatherData: DATA Fetched from WeatherAPI
+2022-05-10 16:07:44,011 DEBUG [restartedMain] CreateWeatherData: DATA Written to Database Successfully
+2022-05-10 16:07:44,125 INFO  [restartedMain] AbstractStep: Step: [CreateData] executed in 1s535ms
+2022-05-10 16:07:44,341 INFO  [restartedMain] SimpleJobLauncher: Job: [SimpleJob: [name=customerReportJob]] completed with the following parameters: [{run.id=19}] and the following status: [COMPLETED] in 1s882ms
+2022-05-10 16:07:44,342 INFO  [restartedMain] ConditionEvaluationDeltaLoggingListener: Condition evaluation unchanged
+2022-05-10 16:09:18,631 INFO  [Thread-118] LocalContainerEntityManagerFactoryBean: Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-10 16:09:18,633 INFO  [Thread-118] HikariDataSource: HikariPool-16 - Shutdown initiated...
+2022-05-10 16:09:18,645 INFO  [Thread-118] HikariDataSource: HikariPool-16 - Shutdown completed.
+#logback.classic pattern: %d %-5level [%thread] %logger{0}: %msg%n
+2022-05-10 16:09:20,883 INFO  [restartedMain] CreateWeatherDataApplication: Starting CreateWeatherDataApplication using Java 17.0.2 on DESKTOP-4UB1T6N with PID 9660 (E:\ECLIPSE_WORKSPACE\CreateWeatherData\target\classes started by nimai in E:\ECLIPSE_WORKSPACE\CreateWeatherData)
+2022-05-10 16:09:20,883 DEBUG [restartedMain] CreateWeatherDataApplication: Running with Spring Boot v2.6.7, Spring v5.3.19
+2022-05-10 16:09:20,883 INFO  [restartedMain] CreateWeatherDataApplication: No active profile set, falling back to 1 default profile: "default"
+2022-05-10 16:09:21,071 INFO  [restartedMain] RepositoryConfigurationDelegate: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-10 16:09:21,081 INFO  [restartedMain] RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 9 ms. Found 1 JPA repository interfaces.
+2022-05-10 16:09:21,168 INFO  [restartedMain] HikariDataSource: HikariPool-17 - Starting...
+2022-05-10 16:09:21,219 INFO  [restartedMain] HikariDataSource: HikariPool-17 - Start completed.
+2022-05-10 16:09:21,299 INFO  [restartedMain] LogHelper: HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-10 16:09:21,305 INFO  [restartedMain] Dialect: HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-05-10 16:09:21,415 INFO  [restartedMain] JtaPlatformInitiator: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-10 16:09:21,416 INFO  [restartedMain] LocalContainerEntityManagerFactoryBean: Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-10 16:09:21,673 WARN  [restartedMain] JpaBatchConfigurer: JPA does not support custom isolation levels, so locks may not be taken when launching Jobs
+2022-05-10 16:09:21,673 INFO  [restartedMain] JobRepositoryFactoryBean: No database type set, using meta data indicating: MYSQL
+2022-05-10 16:09:21,674 INFO  [restartedMain] SimpleJobLauncher: No TaskExecutor has been set, defaulting to synchronous executor.
+2022-05-10 16:09:21,701 INFO  [restartedMain] OptionalLiveReloadServer: LiveReload server is running on port 35729
+2022-05-10 16:09:21,743 INFO  [restartedMain] NettyWebServer: Netty started on port 8080
+2022-05-10 16:09:21,750 INFO  [restartedMain] CreateWeatherDataApplication: Started CreateWeatherDataApplication in 0.91 seconds (JVM running for 84092.541)
+2022-05-10 16:09:21,751 INFO  [restartedMain] JobLauncherApplicationRunner: Running default command line with: []
+2022-05-10 16:09:22,183 INFO  [restartedMain] SimpleJobLauncher: Job: [SimpleJob: [name=customerReportJob]] launched with the following parameters: [{run.id=20}]
+2022-05-10 16:09:22,404 INFO  [restartedMain] SimpleStepHandler: Executing step: [CreateData]
+2022-05-10 16:09:22,639 DEBUG [restartedMain] CreateWeatherData: CreateWeatherData taskelet Started
+2022-05-10 16:09:22,639 DEBUG [restartedMain] CreateWeatherData: Fetching Data from WeatherAPI
+2022-05-10 16:09:23,596 DEBUG [restartedMain] CreateWeatherData: DATA Fetched from WeatherAPI
+2022-05-10 16:09:23,692 DEBUG [restartedMain] CreateWeatherData: DATA Written to Database Successfully
+2022-05-10 16:09:23,746 INFO  [restartedMain] AbstractStep: Step: [CreateData] executed in 1s342ms
+2022-05-10 16:09:23,887 INFO  [restartedMain] SimpleJobLauncher: Job: [SimpleJob: [name=customerReportJob]] completed with the following parameters: [{run.id=20}] and the following status: [COMPLETED] in 1s654ms
+2022-05-10 16:09:23,889 INFO  [restartedMain] ConditionEvaluationDeltaLoggingListener: Condition evaluation unchanged
+2022-05-10 16:10:29,996 INFO  [Thread-126] LocalContainerEntityManagerFactoryBean: Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-10 16:10:29,997 INFO  [Thread-126] HikariDataSource: HikariPool-17 - Shutdown initiated...
+2022-05-10 16:10:30,003 INFO  [Thread-126] HikariDataSource: HikariPool-17 - Shutdown completed.
+#logback.classic pattern: %d %-5level [%thread] %logger{0}: %msg%n
+2022-05-10 16:10:32,224 INFO  [restartedMain] CreateWeatherDataApplication: Starting CreateWeatherDataApplication using Java 17.0.2 on DESKTOP-4UB1T6N with PID 9660 (E:\ECLIPSE_WORKSPACE\CreateWeatherData\target\classes started by nimai in E:\ECLIPSE_WORKSPACE\CreateWeatherData)
+2022-05-10 16:10:32,224 DEBUG [restartedMain] CreateWeatherDataApplication: Running with Spring Boot v2.6.7, Spring v5.3.19
+2022-05-10 16:10:32,224 INFO  [restartedMain] CreateWeatherDataApplication: No active profile set, falling back to 1 default profile: "default"
+2022-05-10 16:10:32,403 INFO  [restartedMain] RepositoryConfigurationDelegate: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-10 16:10:32,412 INFO  [restartedMain] RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 9 ms. Found 1 JPA repository interfaces.
+2022-05-10 16:10:32,513 INFO  [restartedMain] HikariDataSource: HikariPool-18 - Starting...
+2022-05-10 16:10:32,533 INFO  [restartedMain] HikariDataSource: HikariPool-18 - Start completed.
+2022-05-10 16:10:32,581 INFO  [restartedMain] LogHelper: HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-10 16:10:32,588 INFO  [restartedMain] Dialect: HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-05-10 16:10:32,630 INFO  [restartedMain] JtaPlatformInitiator: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-10 16:10:32,630 INFO  [restartedMain] LocalContainerEntityManagerFactoryBean: Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-10 16:10:32,880 WARN  [restartedMain] JpaBatchConfigurer: JPA does not support custom isolation levels, so locks may not be taken when launching Jobs
+2022-05-10 16:10:32,880 INFO  [restartedMain] JobRepositoryFactoryBean: No database type set, using meta data indicating: MYSQL
+2022-05-10 16:10:32,882 INFO  [restartedMain] SimpleJobLauncher: No TaskExecutor has been set, defaulting to synchronous executor.
+2022-05-10 16:10:32,942 INFO  [restartedMain] OptionalLiveReloadServer: LiveReload server is running on port 35729
+2022-05-10 16:10:32,961 INFO  [restartedMain] NettyWebServer: Netty started on port 8080
+2022-05-10 16:10:32,970 INFO  [restartedMain] CreateWeatherDataApplication: Started CreateWeatherDataApplication in 0.786 seconds (JVM running for 84163.761)
+2022-05-10 16:10:32,971 INFO  [restartedMain] JobLauncherApplicationRunner: Running default command line with: []
+2022-05-10 16:10:33,218 INFO  [restartedMain] SimpleJobLauncher: Job: [SimpleJob: [name=customerReportJob]] launched with the following parameters: [{run.id=21}]
+2022-05-10 16:10:33,500 INFO  [restartedMain] SimpleStepHandler: Executing step: [CreateData]
+2022-05-10 16:10:33,700 DEBUG [restartedMain] CreateWeatherData: CreateWeatherData taskelet Started
+2022-05-10 16:10:33,700 DEBUG [restartedMain] CreateWeatherData: Fetching Data from WeatherAPI
+2022-05-10 16:10:34,548 DEBUG [restartedMain] CreateWeatherData: DATA Fetched from WeatherAPI
+2022-05-10 16:10:34,604 DEBUG [restartedMain] CreateWeatherData: DATA Written to Database Successfully
+2022-05-10 16:10:34,698 INFO  [restartedMain] AbstractStep: Step: [CreateData] executed in 1s198ms
+2022-05-10 16:10:34,917 INFO  [restartedMain] SimpleJobLauncher: Job: [SimpleJob: [name=customerReportJob]] completed with the following parameters: [{run.id=21}] and the following status: [COMPLETED] in 1s590ms
+2022-05-10 16:10:34,920 INFO  [restartedMain] ConditionEvaluationDeltaLoggingListener: Condition evaluation unchanged
+2022-05-10 16:10:49,716 INFO  [Thread-134] LocalContainerEntityManagerFactoryBean: Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-10 16:10:49,717 INFO  [Thread-134] HikariDataSource: HikariPool-18 - Shutdown initiated...
+2022-05-10 16:10:49,727 INFO  [Thread-134] HikariDataSource: HikariPool-18 - Shutdown completed.
+#logback.classic pattern: %d %-5level [%thread] %logger{0}: %msg%n
+2022-05-10 16:10:51,943 INFO  [restartedMain] CreateWeatherDataApplication: Starting CreateWeatherDataApplication using Java 17.0.2 on DESKTOP-4UB1T6N with PID 9660 (E:\ECLIPSE_WORKSPACE\CreateWeatherData\target\classes started by nimai in E:\ECLIPSE_WORKSPACE\CreateWeatherData)
+2022-05-10 16:10:51,943 DEBUG [restartedMain] CreateWeatherDataApplication: Running with Spring Boot v2.6.7, Spring v5.3.19
+2022-05-10 16:10:51,943 INFO  [restartedMain] CreateWeatherDataApplication: No active profile set, falling back to 1 default profile: "default"
+2022-05-10 16:10:52,125 INFO  [restartedMain] RepositoryConfigurationDelegate: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-10 16:10:52,133 INFO  [restartedMain] RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 8 ms. Found 1 JPA repository interfaces.
+2022-05-10 16:10:52,220 INFO  [restartedMain] HikariDataSource: HikariPool-19 - Starting...
+2022-05-10 16:10:52,238 INFO  [restartedMain] HikariDataSource: HikariPool-19 - Start completed.
+2022-05-10 16:10:52,267 INFO  [restartedMain] LogHelper: HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-10 16:10:52,275 INFO  [restartedMain] Dialect: HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-05-10 16:10:52,325 INFO  [restartedMain] JtaPlatformInitiator: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-10 16:10:52,325 INFO  [restartedMain] LocalContainerEntityManagerFactoryBean: Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-10 16:10:52,577 WARN  [restartedMain] JpaBatchConfigurer: JPA does not support custom isolation levels, so locks may not be taken when launching Jobs
+2022-05-10 16:10:52,577 INFO  [restartedMain] JobRepositoryFactoryBean: No database type set, using meta data indicating: MYSQL
+2022-05-10 16:10:52,578 INFO  [restartedMain] SimpleJobLauncher: No TaskExecutor has been set, defaulting to synchronous executor.
+2022-05-10 16:10:52,612 INFO  [restartedMain] OptionalLiveReloadServer: LiveReload server is running on port 35729
+2022-05-10 16:10:52,648 INFO  [restartedMain] NettyWebServer: Netty started on port 8080
+2022-05-10 16:10:52,655 INFO  [restartedMain] CreateWeatherDataApplication: Started CreateWeatherDataApplication in 0.75 seconds (JVM running for 84183.446)
+2022-05-10 16:10:52,656 INFO  [restartedMain] JobLauncherApplicationRunner: Running default command line with: []
+2022-05-10 16:10:52,858 INFO  [restartedMain] SimpleJobLauncher: Job: [SimpleJob: [name=customerReportJob]] launched with the following parameters: [{run.id=22}]
+2022-05-10 16:10:53,237 INFO  [restartedMain] SimpleStepHandler: Executing step: [CreateData]
+2022-05-10 16:10:53,583 DEBUG [restartedMain] CreateWeatherData: CreateWeatherData taskelet Started
+2022-05-10 16:10:53,584 DEBUG [restartedMain] CreateWeatherData: Fetching Data from WeatherAPI
+2022-05-10 16:10:54,384 DEBUG [restartedMain] CreateWeatherData: DATA Fetched from WeatherAPI
+2022-05-10 16:10:54,501 DEBUG [restartedMain] CreateWeatherData: DATA Written to Database Successfully
+2022-05-10 16:10:54,572 INFO  [restartedMain] AbstractStep: Step: [CreateData] executed in 1s334ms
+2022-05-10 16:10:54,721 INFO  [restartedMain] SimpleJobLauncher: Job: [SimpleJob: [name=customerReportJob]] completed with the following parameters: [{run.id=22}] and the following status: [COMPLETED] in 1s775ms
+2022-05-10 16:10:54,724 INFO  [restartedMain] ConditionEvaluationDeltaLoggingListener: Condition evaluation unchanged
+2022-05-10 16:11:24,650 INFO  [Thread-142] LocalContainerEntityManagerFactoryBean: Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-10 16:11:24,652 INFO  [Thread-142] HikariDataSource: HikariPool-19 - Shutdown initiated...
+2022-05-10 16:11:24,668 INFO  [Thread-142] HikariDataSource: HikariPool-19 - Shutdown completed.
+#logback.classic pattern: %d %-5level [%thread] %logger{0}:[%c] %msg%n
+2022-05-10 16:11:26,902 INFO  [restartedMain] CreateWeatherDataApplication:[com.iqnext.CreateWeatherDataApplication] Starting CreateWeatherDataApplication using Java 17.0.2 on DESKTOP-4UB1T6N with PID 9660 (E:\ECLIPSE_WORKSPACE\CreateWeatherData\target\classes started by nimai in E:\ECLIPSE_WORKSPACE\CreateWeatherData)
+2022-05-10 16:11:26,902 DEBUG [restartedMain] CreateWeatherDataApplication:[com.iqnext.CreateWeatherDataApplication] Running with Spring Boot v2.6.7, Spring v5.3.19
+2022-05-10 16:11:26,903 INFO  [restartedMain] CreateWeatherDataApplication:[com.iqnext.CreateWeatherDataApplication] No active profile set, falling back to 1 default profile: "default"
+2022-05-10 16:11:27,090 INFO  [restartedMain] RepositoryConfigurationDelegate:[org.springframework.data.repository.config.RepositoryConfigurationDelegate] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-10 16:11:27,098 INFO  [restartedMain] RepositoryConfigurationDelegate:[org.springframework.data.repository.config.RepositoryConfigurationDelegate] Finished Spring Data repository scanning in 7 ms. Found 1 JPA repository interfaces.
+2022-05-10 16:11:27,184 INFO  [restartedMain] HikariDataSource:[com.zaxxer.hikari.HikariDataSource] HikariPool-20 - Starting...
+2022-05-10 16:11:27,202 INFO  [restartedMain] HikariDataSource:[com.zaxxer.hikari.HikariDataSource] HikariPool-20 - Start completed.
+2022-05-10 16:11:27,342 INFO  [restartedMain] LogHelper:[org.hibernate.jpa.internal.util.LogHelper] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-10 16:11:27,348 INFO  [restartedMain] Dialect:[org.hibernate.dialect.Dialect] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-05-10 16:11:27,405 INFO  [restartedMain] JtaPlatformInitiator:[org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-10 16:11:27,405 INFO  [restartedMain] LocalContainerEntityManagerFactoryBean:[org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-10 16:11:27,616 WARN  [restartedMain] JpaBatchConfigurer:[org.springframework.boot.autoconfigure.batch.JpaBatchConfigurer] JPA does not support custom isolation levels, so locks may not be taken when launching Jobs
+2022-05-10 16:11:27,617 INFO  [restartedMain] JobRepositoryFactoryBean:[org.springframework.batch.core.repository.support.JobRepositoryFactoryBean] No database type set, using meta data indicating: MYSQL
+2022-05-10 16:11:27,617 INFO  [restartedMain] SimpleJobLauncher:[org.springframework.batch.core.launch.support.SimpleJobLauncher] No TaskExecutor has been set, defaulting to synchronous executor.
+2022-05-10 16:11:27,645 INFO  [restartedMain] OptionalLiveReloadServer:[org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729
+2022-05-10 16:11:27,665 INFO  [restartedMain] NettyWebServer:[org.springframework.boot.web.embedded.netty.NettyWebServer] Netty started on port 8080
+2022-05-10 16:11:27,673 INFO  [restartedMain] CreateWeatherDataApplication:[com.iqnext.CreateWeatherDataApplication] Started CreateWeatherDataApplication in 0.81 seconds (JVM running for 84218.464)
+2022-05-10 16:11:27,674 INFO  [restartedMain] JobLauncherApplicationRunner:[org.springframework.boot.autoconfigure.batch.JobLauncherApplicationRunner] Running default command line with: []
+2022-05-10 16:11:28,120 INFO  [restartedMain] SimpleJobLauncher:[org.springframework.batch.core.launch.support.SimpleJobLauncher] Job: [SimpleJob: [name=customerReportJob]] launched with the following parameters: [{run.id=23}]
+2022-05-10 16:11:28,485 INFO  [restartedMain] SimpleStepHandler:[org.springframework.batch.core.job.SimpleStepHandler] Executing step: [CreateData]
+2022-05-10 16:11:28,915 DEBUG [restartedMain] CreateWeatherData:[com.iqnext.tasklet.CreateWeatherData] CreateWeatherData taskelet Started
+2022-05-10 16:11:28,915 DEBUG [restartedMain] CreateWeatherData:[com.iqnext.tasklet.CreateWeatherData] Fetching Data from WeatherAPI
+2022-05-10 16:11:29,995 DEBUG [restartedMain] CreateWeatherData:[com.iqnext.tasklet.CreateWeatherData] DATA Fetched from WeatherAPI
+2022-05-10 16:11:30,089 DEBUG [restartedMain] CreateWeatherData:[com.iqnext.tasklet.CreateWeatherData] DATA Written to Database Successfully
+2022-05-10 16:11:30,203 INFO  [restartedMain] AbstractStep:[org.springframework.batch.core.step.AbstractStep] Step: [CreateData] executed in 1s718ms
+2022-05-10 16:11:30,335 INFO  [restartedMain] SimpleJobLauncher:[org.springframework.batch.core.launch.support.SimpleJobLauncher] Job: [SimpleJob: [name=customerReportJob]] completed with the following parameters: [{run.id=23}] and the following status: [COMPLETED] in 2s159ms
+2022-05-10 16:11:30,338 INFO  [restartedMain] ConditionEvaluationDeltaLoggingListener:[org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] Condition evaluation unchanged
+2022-05-10 16:17:23,488 INFO  [Thread-150] LocalContainerEntityManagerFactoryBean:[org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-10 16:17:23,490 INFO  [Thread-150] HikariDataSource:[com.zaxxer.hikari.HikariDataSource] HikariPool-20 - Shutdown initiated...
+2022-05-10 16:17:23,536 INFO  [Thread-150] HikariDataSource:[com.zaxxer.hikari.HikariDataSource] HikariPool-20 - Shutdown completed.
+#logback.classic pattern: %d %-5level [%thread] %logger{0}:[%c] %msg%n
+2022-05-10 16:17:25,822 INFO  [restartedMain] CreateWeatherDataApplication:[com.iqnext.CreateWeatherDataApplication] Starting CreateWeatherDataApplication using Java 17.0.2 on DESKTOP-4UB1T6N with PID 9660 (E:\ECLIPSE_WORKSPACE\CreateWeatherData\target\classes started by nimai in E:\ECLIPSE_WORKSPACE\CreateWeatherData)
+2022-05-10 16:17:25,823 DEBUG [restartedMain] CreateWeatherDataApplication:[com.iqnext.CreateWeatherDataApplication] Running with Spring Boot v2.6.7, Spring v5.3.19
+2022-05-10 16:17:25,823 INFO  [restartedMain] CreateWeatherDataApplication:[com.iqnext.CreateWeatherDataApplication] No active profile set, falling back to 1 default profile: "default"
+2022-05-10 16:17:26,101 INFO  [restartedMain] RepositoryConfigurationDelegate:[org.springframework.data.repository.config.RepositoryConfigurationDelegate] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-10 16:17:26,102 INFO  [restartedMain] RepositoryConfigurationDelegate:[org.springframework.data.repository.config.RepositoryConfigurationDelegate] Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2022-05-10 16:17:26,301 INFO  [restartedMain] LogHelper:[org.hibernate.jpa.internal.util.LogHelper] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-10 16:17:26,312 INFO  [restartedMain] HikariDataSource:[com.zaxxer.hikari.HikariDataSource] HikariPool-21 - Starting...
+2022-05-10 16:17:26,369 INFO  [restartedMain] HikariDataSource:[com.zaxxer.hikari.HikariDataSource] HikariPool-21 - Start completed.
+2022-05-10 16:17:26,369 INFO  [restartedMain] Dialect:[org.hibernate.dialect.Dialect] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-05-10 16:17:26,445 INFO  [restartedMain] JtaPlatformInitiator:[org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-10 16:17:26,445 INFO  [restartedMain] LocalContainerEntityManagerFactoryBean:[org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-10 16:17:26,717 INFO  [restartedMain] OptionalLiveReloadServer:[org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729
+2022-05-10 16:17:26,740 INFO  [restartedMain] NettyWebServer:[org.springframework.boot.web.embedded.netty.NettyWebServer] Netty started on port 8080
+2022-05-10 16:17:26,750 INFO  [restartedMain] CreateWeatherDataApplication:[com.iqnext.CreateWeatherDataApplication] Started CreateWeatherDataApplication in 0.99 seconds (JVM running for 84577.542)
+2022-05-10 16:17:26,760 INFO  [restartedMain] ConditionEvaluationDeltaLoggingListener:[org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+   JpaBaseConfiguration#transactionManager matched:
+      - @ConditionalOnMissingBean (types: org.springframework.transaction.TransactionManager; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+
+Negative matches:
+-----------------
+
+   BatchAutoConfiguration:
+      Did not match:
+         - @ConditionalOnBean (types: org.springframework.batch.core.launch.JobLauncher; SearchStrategy: all) did not find any beans of type org.springframework.batch.core.launch.JobLauncher (OnBeanCondition)
+      Matched:
+         - @ConditionalOnClass found required classes 'org.springframework.batch.core.launch.JobLauncher', 'javax.sql.DataSource' (OnClassCondition)
+
+   BatchAutoConfiguration.DataSourceInitializerConfiguration:
+      Did not match:
+         - Ancestor org.springframework.boot.autoconfigure.batch.BatchAutoConfiguration did not match (ConditionEvaluationReport.AncestorsMatchedCondition)
+      Matched:
+         - @ConditionalOnClass found required class 'org.springframework.jdbc.datasource.init.DatabasePopulator' (OnClassCondition)
+         - BatchDatabase Initialization spring.batch.initialize-schema is ALWAYS (BatchAutoConfiguration.OnBatchDatasourceInitializationCondition)
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2022-05-10 16:17:31,380 INFO  [Thread-158] LocalContainerEntityManagerFactoryBean:[org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-10 16:17:31,381 INFO  [Thread-158] HikariDataSource:[com.zaxxer.hikari.HikariDataSource] HikariPool-21 - Shutdown initiated...
+2022-05-10 16:17:31,397 INFO  [Thread-158] HikariDataSource:[com.zaxxer.hikari.HikariDataSource] HikariPool-21 - Shutdown completed.
+#logback.classic pattern: %d %-5level [%thread] %logger{0}:[%c] %msg%n
+2022-05-10 16:17:33,617 INFO  [restartedMain] CreateWeatherDataApplication:[com.iqnext.CreateWeatherDataApplication] Starting CreateWeatherDataApplication using Java 17.0.2 on DESKTOP-4UB1T6N with PID 9660 (E:\ECLIPSE_WORKSPACE\CreateWeatherData\target\classes started by nimai in E:\ECLIPSE_WORKSPACE\CreateWeatherData)
+2022-05-10 16:17:33,617 DEBUG [restartedMain] CreateWeatherDataApplication:[com.iqnext.CreateWeatherDataApplication] Running with Spring Boot v2.6.7, Spring v5.3.19
+2022-05-10 16:17:33,617 INFO  [restartedMain] CreateWeatherDataApplication:[com.iqnext.CreateWeatherDataApplication] No active profile set, falling back to 1 default profile: "default"
+2022-05-10 16:17:33,911 INFO  [restartedMain] RepositoryConfigurationDelegate:[org.springframework.data.repository.config.RepositoryConfigurationDelegate] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-10 16:17:33,919 INFO  [restartedMain] RepositoryConfigurationDelegate:[org.springframework.data.repository.config.RepositoryConfigurationDelegate] Finished Spring Data repository scanning in 8 ms. Found 1 JPA repository interfaces.
+2022-05-10 16:17:34,026 INFO  [restartedMain] HikariDataSource:[com.zaxxer.hikari.HikariDataSource] HikariPool-22 - Starting...
+2022-05-10 16:17:34,046 INFO  [restartedMain] HikariDataSource:[com.zaxxer.hikari.HikariDataSource] HikariPool-22 - Start completed.
+2022-05-10 16:17:34,088 INFO  [restartedMain] LogHelper:[org.hibernate.jpa.internal.util.LogHelper] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-10 16:17:34,096 INFO  [restartedMain] Dialect:[org.hibernate.dialect.Dialect] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-05-10 16:17:34,141 INFO  [restartedMain] JtaPlatformInitiator:[org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-10 16:17:34,141 INFO  [restartedMain] LocalContainerEntityManagerFactoryBean:[org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-10 16:17:34,390 WARN  [restartedMain] JpaBatchConfigurer:[org.springframework.boot.autoconfigure.batch.JpaBatchConfigurer] JPA does not support custom isolation levels, so locks may not be taken when launching Jobs
+2022-05-10 16:17:34,391 INFO  [restartedMain] JobRepositoryFactoryBean:[org.springframework.batch.core.repository.support.JobRepositoryFactoryBean] No database type set, using meta data indicating: MYSQL
+2022-05-10 16:17:34,392 INFO  [restartedMain] SimpleJobLauncher:[org.springframework.batch.core.launch.support.SimpleJobLauncher] No TaskExecutor has been set, defaulting to synchronous executor.
+2022-05-10 16:17:34,452 INFO  [restartedMain] OptionalLiveReloadServer:[org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729
+2022-05-10 16:17:34,479 INFO  [restartedMain] NettyWebServer:[org.springframework.boot.web.embedded.netty.NettyWebServer] Netty started on port 8080
+2022-05-10 16:17:34,494 INFO  [restartedMain] CreateWeatherDataApplication:[com.iqnext.CreateWeatherDataApplication] Started CreateWeatherDataApplication in 0.92 seconds (JVM running for 84585.285)
+2022-05-10 16:17:34,495 INFO  [restartedMain] JobLauncherApplicationRunner:[org.springframework.boot.autoconfigure.batch.JobLauncherApplicationRunner] Running default command line with: []
+2022-05-10 16:17:35,048 INFO  [restartedMain] SimpleJobLauncher:[org.springframework.batch.core.launch.support.SimpleJobLauncher] Job: [SimpleJob: [name=customerReportJob]] launched with the following parameters: [{run.id=24}]
+2022-05-10 16:17:35,521 INFO  [restartedMain] SimpleStepHandler:[org.springframework.batch.core.job.SimpleStepHandler] Executing step: [CreateData]
+2022-05-10 16:17:36,065 DEBUG [restartedMain] CreateWeatherData:[com.iqnext.tasklet.CreateWeatherData] CreateWeatherData taskelet Started
+2022-05-10 16:17:36,065 DEBUG [restartedMain] CreateWeatherData:[com.iqnext.tasklet.CreateWeatherData] Fetching Data from WeatherAPI
+2022-05-10 16:17:37,661 DEBUG [restartedMain] CreateWeatherData:[com.iqnext.tasklet.CreateWeatherData] DATA Fetched from WeatherAPI
+2022-05-10 16:17:38,469 DEBUG [restartedMain] CreateWeatherData:[com.iqnext.tasklet.CreateWeatherData] DATA Written to Database Successfully
+2022-05-10 16:17:38,971 INFO  [restartedMain] AbstractStep:[org.springframework.batch.core.step.AbstractStep] Step: [CreateData] executed in 3s450ms
+2022-05-10 16:17:39,897 INFO  [restartedMain] SimpleJobLauncher:[org.springframework.batch.core.launch.support.SimpleJobLauncher] Job: [SimpleJob: [name=customerReportJob]] completed with the following parameters: [{run.id=24}] and the following status: [COMPLETED] in 4s518ms
+2022-05-10 16:17:39,900 INFO  [restartedMain] ConditionEvaluationDeltaLoggingListener:[org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+   BatchAutoConfiguration matched:
+      - @ConditionalOnClass found required classes 'org.springframework.batch.core.launch.JobLauncher', 'javax.sql.DataSource' (OnClassCondition)
+      - @ConditionalOnBean (types: org.springframework.batch.core.launch.JobLauncher; SearchStrategy: all) found bean 'jobLauncher' (OnBeanCondition)
+
+   BatchAutoConfiguration#jobExecutionExitCodeGenerator matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.ExitCodeGenerator; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   BatchAutoConfiguration#jobLauncherApplicationRunner matched:
+      - @ConditionalOnProperty (spring.batch.job.enabled=true) matched (OnPropertyCondition)
+      - @ConditionalOnMissingBean (types: org.springframework.boot.autoconfigure.batch.JobLauncherApplicationRunner; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   BatchAutoConfiguration#jobOperator matched:
+      - @ConditionalOnMissingBean (types: org.springframework.batch.core.launch.JobOperator; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   BatchAutoConfiguration.DataSourceInitializerConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.jdbc.datasource.init.DatabasePopulator' (OnClassCondition)
+      - BatchDatabase Initialization spring.batch.initialize-schema is ALWAYS (BatchAutoConfiguration.OnBatchDatasourceInitializationCondition)
+      - @ConditionalOnBean (types: javax.sql.DataSource; SearchStrategy: all) found bean 'dataSource' (OnBeanCondition)
+
+   BatchAutoConfiguration.DataSourceInitializerConfiguration#batchDataSourceInitializer matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.autoconfigure.batch.BatchDataSourceScriptDatabaseInitializer,org.springframework.boot.autoconfigure.batch.BatchDataSourceInitializer; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+
+Negative matches:
+-----------------
+
+   BatchConfigurerConfiguration.JdbcBatchConfiguration:
+      Did not match:
+         - @ConditionalOnMissingBean (names: entityManagerFactory; SearchStrategy: all) found beans named entityManagerFactory (OnBeanCondition)
+
+   JpaBaseConfiguration#transactionManager:
+      Did not match:
+         - @ConditionalOnMissingBean (types: org.springframework.transaction.TransactionManager; SearchStrategy: all) found beans of type 'org.springframework.transaction.TransactionManager' transactionManager (OnBeanCondition)
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+#logback.classic pattern: %d %-5level [%thread] %logger{0}:[%c] %msg%n
+2022-05-10 16:17:47,312 INFO  [main] SpringBootTestContextBootstrapper:[org.springframework.boot.test.context.SpringBootTestContextBootstrapper] Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.iqnext.CreateWeatherDataApplicationTests], using SpringBootContextLoader
+2022-05-10 16:17:47,327 INFO  [main] AbstractContextLoader:[org.springframework.test.context.support.AbstractContextLoader] Could not detect default resource locations for test class [com.iqnext.CreateWeatherDataApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2022-05-10 16:17:47,329 INFO  [main] AnnotationConfigContextLoaderUtils:[org.springframework.test.context.support.AnnotationConfigContextLoaderUtils] Could not detect default configuration classes for test class [com.iqnext.CreateWeatherDataApplicationTests]: CreateWeatherDataApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2022-05-10 16:17:47,600 INFO  [main] SpringBootTestContextBootstrapper:[org.springframework.boot.test.context.SpringBootTestContextBootstrapper] Found @SpringBootConfiguration com.iqnext.CreateWeatherDataApplication for test class com.iqnext.CreateWeatherDataApplicationTests
+2022-05-10 16:17:47,907 INFO  [main] SpringBootTestContextBootstrapper:[org.springframework.boot.test.context.SpringBootTestContextBootstrapper] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2022-05-10 16:17:47,955 INFO  [main] SpringBootTestContextBootstrapper:[org.springframework.boot.test.context.SpringBootTestContextBootstrapper] Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@4a067c25, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@a1217f9, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@3bde62ff, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@523424b5, org.springframework.test.context.support.DirtiesContextTestExecutionListener@2baa8d82, org.springframework.test.context.transaction.TransactionalTestExecutionListener@319dead1, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@791cbf87, org.springframework.test.context.event.EventPublishingTestExecutionListener@a7e2d9d, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@754777cd, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@2b52c0d6, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@372ea2bc, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@4cc76301, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@2f08c4b, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@3f19b8b3]
+#logback.classic pattern: %d %-5level [%thread] %logger{0}:[%c] %msg%n
+2022-05-10 16:17:49,074 INFO  [main] CreateWeatherDataApplicationTests:[com.iqnext.CreateWeatherDataApplicationTests] Starting CreateWeatherDataApplicationTests using Java 17.0.2 on DESKTOP-4UB1T6N with PID 14868 (started by nimai in E:\ECLIPSE_WORKSPACE\CreateWeatherData)
+2022-05-10 16:17:49,075 DEBUG [main] CreateWeatherDataApplicationTests:[com.iqnext.CreateWeatherDataApplicationTests] Running with Spring Boot v2.6.7, Spring v5.3.19
+2022-05-10 16:17:49,077 INFO  [main] CreateWeatherDataApplicationTests:[com.iqnext.CreateWeatherDataApplicationTests] No active profile set, falling back to 1 default profile: "default"
+2022-05-10 16:17:51,264 INFO  [main] RepositoryConfigurationDelegate:[org.springframework.data.repository.config.RepositoryConfigurationDelegate] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-10 16:17:51,618 INFO  [main] RepositoryConfigurationDelegate:[org.springframework.data.repository.config.RepositoryConfigurationDelegate] Finished Spring Data repository scanning in 331 ms. Found 1 JPA repository interfaces.
+2022-05-10 16:17:53,577 INFO  [main] HikariDataSource:[com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting...
+2022-05-10 16:17:55,287 INFO  [main] HikariDataSource:[com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed.
+2022-05-10 16:17:56,588 INFO  [main] LogHelper:[org.hibernate.jpa.internal.util.LogHelper] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-10 16:17:57,241 INFO  [main] Version:[org.hibernate.Version] HHH000412: Hibernate ORM core version 5.6.8.Final
+2022-05-10 16:18:00,680 INFO  [main] Version:[org.hibernate.annotations.common.Version] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-05-10 16:18:01,643 INFO  [main] Dialect:[org.hibernate.dialect.Dialect] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-05-10 16:18:04,501 INFO  [main] JtaPlatformInitiator:[org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-10 16:18:04,542 INFO  [main] LocalContainerEntityManagerFactoryBean:[org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-10 16:18:09,993 WARN  [main] JpaBatchConfigurer:[org.springframework.boot.autoconfigure.batch.JpaBatchConfigurer] JPA does not support custom isolation levels, so locks may not be taken when launching Jobs
+2022-05-10 16:18:10,013 INFO  [main] JobRepositoryFactoryBean:[org.springframework.batch.core.repository.support.JobRepositoryFactoryBean] No database type set, using meta data indicating: MYSQL
+2022-05-10 16:18:10,168 INFO  [main] SimpleJobLauncher:[org.springframework.batch.core.launch.support.SimpleJobLauncher] No TaskExecutor has been set, defaulting to synchronous executor.
+2022-05-10 16:18:10,895 INFO  [main] CreateWeatherDataApplicationTests:[com.iqnext.CreateWeatherDataApplicationTests] Started CreateWeatherDataApplicationTests in 22.799 seconds (JVM running for 29.416)
+2022-05-10 16:18:10,901 INFO  [main] JobLauncherApplicationRunner:[org.springframework.boot.autoconfigure.batch.JobLauncherApplicationRunner] Running default command line with: []
+2022-05-10 16:18:11,905 INFO  [main] SimpleJobLauncher:[org.springframework.batch.core.launch.support.SimpleJobLauncher] Job: [SimpleJob: [name=customerReportJob]] launched with the following parameters: [{run.id=25}]
+2022-05-10 16:18:12,351 INFO  [main] SimpleStepHandler:[org.springframework.batch.core.job.SimpleStepHandler] Executing step: [CreateData]
+2022-05-10 16:18:12,741 DEBUG [main] CreateWeatherData:[com.iqnext.tasklet.CreateWeatherData] CreateWeatherData taskelet Started
+2022-05-10 16:18:12,742 DEBUG [main] CreateWeatherData:[com.iqnext.tasklet.CreateWeatherData] Fetching Data from WeatherAPI
+2022-05-10 16:18:15,622 DEBUG [main] CreateWeatherData:[com.iqnext.tasklet.CreateWeatherData] DATA Fetched from WeatherAPI
+2022-05-10 16:18:15,850 DEBUG [main] CreateWeatherData:[com.iqnext.tasklet.CreateWeatherData] DATA Written to Database Successfully
+2022-05-10 16:18:15,965 INFO  [main] AbstractStep:[org.springframework.batch.core.step.AbstractStep] Step: [CreateData] executed in 3s613ms
+2022-05-10 16:18:16,107 INFO  [main] SimpleJobLauncher:[org.springframework.batch.core.launch.support.SimpleJobLauncher] Job: [SimpleJob: [name=customerReportJob]] completed with the following parameters: [{run.id=25}] and the following status: [COMPLETED] in 4s64ms
+2022-05-10 16:18:19,304 INFO  [SpringApplicationShutdownHook] LocalContainerEntityManagerFactoryBean:[org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-10 16:18:19,308 INFO  [SpringApplicationShutdownHook] HikariDataSource:[com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown initiated...
+2022-05-10 16:18:19,328 INFO  [SpringApplicationShutdownHook] HikariDataSource:[com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown completed.
+#logback.classic pattern: %d %-5level [%thread] %logger{0}:[%c] %msg%n
+2022-05-10 16:30:33,098 INFO  [main] SpringBootTestContextBootstrapper:[org.springframework.boot.test.context.SpringBootTestContextBootstrapper] Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.iqnext.CreateWeatherDataApplicationTests], using SpringBootContextLoader
+2022-05-10 16:30:33,112 INFO  [main] AbstractContextLoader:[org.springframework.test.context.support.AbstractContextLoader] Could not detect default resource locations for test class [com.iqnext.CreateWeatherDataApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2022-05-10 16:30:33,115 INFO  [main] AnnotationConfigContextLoaderUtils:[org.springframework.test.context.support.AnnotationConfigContextLoaderUtils] Could not detect default configuration classes for test class [com.iqnext.CreateWeatherDataApplicationTests]: CreateWeatherDataApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2022-05-10 16:30:33,526 INFO  [main] SpringBootTestContextBootstrapper:[org.springframework.boot.test.context.SpringBootTestContextBootstrapper] Found @SpringBootConfiguration com.iqnext.CreateWeatherDataApplication for test class com.iqnext.CreateWeatherDataApplicationTests
+2022-05-10 16:30:33,965 INFO  [main] SpringBootTestContextBootstrapper:[org.springframework.boot.test.context.SpringBootTestContextBootstrapper] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2022-05-10 16:30:34,020 INFO  [main] SpringBootTestContextBootstrapper:[org.springframework.boot.test.context.SpringBootTestContextBootstrapper] Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@a7e2d9d, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@754777cd, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@2b52c0d6, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@372ea2bc, org.springframework.test.context.support.DirtiesContextTestExecutionListener@4cc76301, org.springframework.test.context.transaction.TransactionalTestExecutionListener@2f08c4b, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@3f19b8b3, org.springframework.test.context.event.EventPublishingTestExecutionListener@7de0c6ae, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@a486d78, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@cdc3aae, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@7ef2d7a6, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@5dcbb60, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@4c36250e, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@21526f6c]
+#logback.classic pattern: %d %-5level [%thread] %logger{0}:[%c] %msg%n
+2022-05-10 16:30:34,803 INFO  [main] CreateWeatherDataApplicationTests:[com.iqnext.CreateWeatherDataApplicationTests] Starting CreateWeatherDataApplicationTests using Java 17.0.2 on DESKTOP-4UB1T6N with PID 13940 (started by nimai in E:\ECLIPSE_WORKSPACE\CreateWeatherData)
+2022-05-10 16:30:34,804 DEBUG [main] CreateWeatherDataApplicationTests:[com.iqnext.CreateWeatherDataApplicationTests] Running with Spring Boot v2.6.7, Spring v5.3.19
+2022-05-10 16:30:34,805 INFO  [main] CreateWeatherDataApplicationTests:[com.iqnext.CreateWeatherDataApplicationTests] No active profile set, falling back to 1 default profile: "default"
+2022-05-10 16:30:36,264 INFO  [main] RepositoryConfigurationDelegate:[org.springframework.data.repository.config.RepositoryConfigurationDelegate] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-10 16:30:36,697 INFO  [main] RepositoryConfigurationDelegate:[org.springframework.data.repository.config.RepositoryConfigurationDelegate] Finished Spring Data repository scanning in 408 ms. Found 1 JPA repository interfaces.
+2022-05-10 16:30:37,843 INFO  [main] HikariDataSource:[com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting...
+2022-05-10 16:30:38,987 INFO  [main] HikariDataSource:[com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed.
+2022-05-10 16:30:39,922 INFO  [main] LogHelper:[org.hibernate.jpa.internal.util.LogHelper] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-10 16:30:40,138 INFO  [main] Version:[org.hibernate.Version] HHH000412: Hibernate ORM core version 5.6.8.Final
+2022-05-10 16:30:40,630 INFO  [main] Version:[org.hibernate.annotations.common.Version] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-05-10 16:30:41,001 INFO  [main] Dialect:[org.hibernate.dialect.Dialect] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-05-10 16:30:42,747 INFO  [main] JtaPlatformInitiator:[org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-10 16:30:42,767 INFO  [main] LocalContainerEntityManagerFactoryBean:[org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-10 16:30:45,605 WARN  [main] JpaBatchConfigurer:[org.springframework.boot.autoconfigure.batch.JpaBatchConfigurer] JPA does not support custom isolation levels, so locks may not be taken when launching Jobs
+2022-05-10 16:30:45,642 INFO  [main] JobRepositoryFactoryBean:[org.springframework.batch.core.repository.support.JobRepositoryFactoryBean] No database type set, using meta data indicating: MYSQL
+2022-05-10 16:30:45,724 INFO  [main] SimpleJobLauncher:[org.springframework.batch.core.launch.support.SimpleJobLauncher] No TaskExecutor has been set, defaulting to synchronous executor.
+2022-05-10 16:30:46,247 INFO  [main] CreateWeatherDataApplicationTests:[com.iqnext.CreateWeatherDataApplicationTests] Started CreateWeatherDataApplicationTests in 12.094 seconds (JVM running for 16.067)
+2022-05-10 16:30:46,254 INFO  [main] JobLauncherApplicationRunner:[org.springframework.boot.autoconfigure.batch.JobLauncherApplicationRunner] Running default command line with: []
+2022-05-10 16:30:46,912 INFO  [main] SimpleJobLauncher:[org.springframework.batch.core.launch.support.SimpleJobLauncher] Job: [SimpleJob: [name=customerReportJob]] launched with the following parameters: [{run.id=26}]
+2022-05-10 16:30:47,222 INFO  [main] SimpleStepHandler:[org.springframework.batch.core.job.SimpleStepHandler] Executing step: [CreateData]
+2022-05-10 16:30:47,391 DEBUG [main] CreateWeatherData:[com.iqnext.tasklet.CreateWeatherData] CreateWeatherData taskelet Started
+2022-05-10 16:30:47,391 DEBUG [main] CreateWeatherData:[com.iqnext.tasklet.CreateWeatherData] Fetching Data from WeatherAPI
+2022-05-10 16:30:49,570 DEBUG [main] CreateWeatherData:[com.iqnext.tasklet.CreateWeatherData] DATA Fetched from WeatherAPI
+2022-05-10 16:30:49,869 DEBUG [main] CreateWeatherData:[com.iqnext.tasklet.CreateWeatherData] DATA Written to Database Successfully
+2022-05-10 16:30:50,025 INFO  [main] AbstractStep:[org.springframework.batch.core.step.AbstractStep] Step: [CreateData] executed in 2s801ms
+2022-05-10 16:30:50,545 INFO  [main] SimpleJobLauncher:[org.springframework.batch.core.launch.support.SimpleJobLauncher] Job: [SimpleJob: [name=customerReportJob]] completed with the following parameters: [{run.id=26}] and the following status: [COMPLETED] in 3s496ms
+2022-05-10 16:30:53,217 INFO  [SpringApplicationShutdownHook] LocalContainerEntityManagerFactoryBean:[org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-10 16:30:53,223 INFO  [SpringApplicationShutdownHook] HikariDataSource:[com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown initiated...
+2022-05-10 16:30:53,257 INFO  [SpringApplicationShutdownHook] HikariDataSource:[com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown completed.
+#logback.classic pattern: %d %-5level [%thread] %logger{0}:[%c] %msg%n
+#logback.classic pattern: %d %-5level [%thread] %logger{0}:[%c] %msg%n
+2022-05-10 17:01:16,300 INFO  [main] CreateWeatherDataApplication:[com.iqnext.CreateWeatherDataApplication] Starting CreateWeatherDataApplication using Java 17.0.2 on DESKTOP-4UB1T6N with PID 13256 (E:\ECLIPSE_WORKSPACE\CreateWeatherData\target\classes started by nimai in E:\ECLIPSE_WORKSPACE\CreateWeatherData)
+2022-05-10 17:01:16,305 DEBUG [main] CreateWeatherDataApplication:[com.iqnext.CreateWeatherDataApplication] Running with Spring Boot v2.6.7, Spring v5.3.19
+2022-05-10 17:01:16,307 INFO  [main] CreateWeatherDataApplication:[com.iqnext.CreateWeatherDataApplication] No active profile set, falling back to 1 default profile: "default"
+2022-05-10 17:01:17,561 INFO  [main] RepositoryConfigurationDelegate:[org.springframework.data.repository.config.RepositoryConfigurationDelegate] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-10 17:01:17,861 INFO  [main] RepositoryConfigurationDelegate:[org.springframework.data.repository.config.RepositoryConfigurationDelegate] Finished Spring Data repository scanning in 283 ms. Found 1 JPA repository interfaces.
+2022-05-10 17:01:18,940 INFO  [main] HikariDataSource:[com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting...
+2022-05-10 17:01:20,006 INFO  [main] HikariDataSource:[com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed.
+2022-05-10 17:01:20,418 INFO  [main] LogHelper:[org.hibernate.jpa.internal.util.LogHelper] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-10 17:01:20,595 INFO  [main] Version:[org.hibernate.Version] HHH000412: Hibernate ORM core version 5.6.8.Final
+2022-05-10 17:01:20,947 INFO  [main] Version:[org.hibernate.annotations.common.Version] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-05-10 17:01:21,227 INFO  [main] Dialect:[org.hibernate.dialect.Dialect] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-05-10 17:01:22,442 INFO  [main] JtaPlatformInitiator:[org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-10 17:01:22,458 INFO  [main] LocalContainerEntityManagerFactoryBean:[org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-10 17:01:23,539 WARN  [main] JpaBatchConfigurer:[org.springframework.boot.autoconfigure.batch.JpaBatchConfigurer] JPA does not support custom isolation levels, so locks may not be taken when launching Jobs
+2022-05-10 17:01:23,554 INFO  [main] JobRepositoryFactoryBean:[org.springframework.batch.core.repository.support.JobRepositoryFactoryBean] No database type set, using meta data indicating: MYSQL
+2022-05-10 17:01:23,607 INFO  [main] SimpleJobLauncher:[org.springframework.batch.core.launch.support.SimpleJobLauncher] No TaskExecutor has been set, defaulting to synchronous executor.
+2022-05-10 17:01:24,115 INFO  [main] NettyWebServer:[org.springframework.boot.web.embedded.netty.NettyWebServer] Netty started on port 8080
+2022-05-10 17:01:24,132 INFO  [main] CreateWeatherDataApplication:[com.iqnext.CreateWeatherDataApplication] Started CreateWeatherDataApplication in 8.651 seconds (JVM running for 9.809)
+2022-05-10 17:01:24,136 INFO  [main] JobLauncherApplicationRunner:[org.springframework.boot.autoconfigure.batch.JobLauncherApplicationRunner] Running default command line with: []
+2022-05-10 17:01:24,569 INFO  [main] SimpleJobLauncher:[org.springframework.batch.core.launch.support.SimpleJobLauncher] Job: [SimpleJob: [name=customerReportJob]] launched with the following parameters: [{run.id=27}]
+2022-05-10 17:01:25,199 INFO  [main] SimpleStepHandler:[org.springframework.batch.core.job.SimpleStepHandler] Executing step: [CreateData]
+2022-05-10 17:01:25,341 DEBUG [main] CreateWeatherData:[com.iqnext.tasklet.CreateWeatherData] CreateWeatherData taskelet Started
+2022-05-10 17:01:25,342 DEBUG [main] CreateWeatherData:[com.iqnext.tasklet.CreateWeatherData] Fetching Data from WeatherAPI
+2022-05-10 17:01:26,919 DEBUG [main] CreateWeatherData:[com.iqnext.tasklet.CreateWeatherData] DATA Fetched from WeatherAPI
+2022-05-10 17:01:27,084 DEBUG [main] CreateWeatherData:[com.iqnext.tasklet.CreateWeatherData] DATA Written to Database Successfully
+2022-05-10 17:01:27,177 INFO  [main] AbstractStep:[org.springframework.batch.core.step.AbstractStep] Step: [CreateData] executed in 1s978ms
+2022-05-10 17:01:27,435 INFO  [main] SimpleJobLauncher:[org.springframework.batch.core.launch.support.SimpleJobLauncher] Job: [SimpleJob: [name=customerReportJob]] completed with the following parameters: [{run.id=27}] and the following status: [COMPLETED] in 2s726ms
+#logback.classic pattern: %d %-5level [%thread] %logger{0}:[%c] %msg%n
+#logback.classic pattern: %d %-5level [%thread] %logger{0}:[%c] %msg%n
+2022-05-10 17:10:16,632 INFO  [main] CreateWeatherDataApplication:[com.iqnext.CreateWeatherDataApplication] Starting CreateWeatherDataApplication using Java 17.0.2 on DESKTOP-4UB1T6N with PID 14896 (E:\ECLIPSE_WORKSPACE\CreateWeatherData\target\classes started by nimai in E:\ECLIPSE_WORKSPACE\CreateWeatherData)
+2022-05-10 17:10:16,636 DEBUG [main] CreateWeatherDataApplication:[com.iqnext.CreateWeatherDataApplication] Running with Spring Boot v2.6.7, Spring v5.3.19
+2022-05-10 17:10:16,638 INFO  [main] CreateWeatherDataApplication:[com.iqnext.CreateWeatherDataApplication] No active profile set, falling back to 1 default profile: "default"
+2022-05-10 17:10:17,692 INFO  [main] RepositoryConfigurationDelegate:[org.springframework.data.repository.config.RepositoryConfigurationDelegate] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-10 17:10:17,966 INFO  [main] RepositoryConfigurationDelegate:[org.springframework.data.repository.config.RepositoryConfigurationDelegate] Finished Spring Data repository scanning in 256 ms. Found 1 JPA repository interfaces.
+2022-05-10 17:10:18,840 INFO  [main] HikariDataSource:[com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting...
+2022-05-10 17:10:19,723 INFO  [main] HikariDataSource:[com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed.
+2022-05-10 17:10:20,083 INFO  [main] LogHelper:[org.hibernate.jpa.internal.util.LogHelper] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-10 17:10:20,227 INFO  [main] Version:[org.hibernate.Version] HHH000412: Hibernate ORM core version 5.6.8.Final
+2022-05-10 17:10:20,606 INFO  [main] Version:[org.hibernate.annotations.common.Version] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-05-10 17:10:20,896 INFO  [main] Dialect:[org.hibernate.dialect.Dialect] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-05-10 17:10:22,047 INFO  [main] JtaPlatformInitiator:[org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-10 17:10:22,062 INFO  [main] LocalContainerEntityManagerFactoryBean:[org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-10 17:10:22,979 WARN  [main] JpaBatchConfigurer:[org.springframework.boot.autoconfigure.batch.JpaBatchConfigurer] JPA does not support custom isolation levels, so locks may not be taken when launching Jobs
+2022-05-10 17:10:22,993 INFO  [main] JobRepositoryFactoryBean:[org.springframework.batch.core.repository.support.JobRepositoryFactoryBean] No database type set, using meta data indicating: MYSQL
+2022-05-10 17:10:23,027 INFO  [main] SimpleJobLauncher:[org.springframework.batch.core.launch.support.SimpleJobLauncher] No TaskExecutor has been set, defaulting to synchronous executor.
+2022-05-10 17:10:23,455 INFO  [main] NettyWebServer:[org.springframework.boot.web.embedded.netty.NettyWebServer] Netty started on port 8080
+2022-05-10 17:10:23,471 INFO  [main] CreateWeatherDataApplication:[com.iqnext.CreateWeatherDataApplication] Started CreateWeatherDataApplication in 7.511 seconds (JVM running for 8.622)
+2022-05-10 17:10:23,474 INFO  [main] JobLauncherApplicationRunner:[org.springframework.boot.autoconfigure.batch.JobLauncherApplicationRunner] Running default command line with: []
+2022-05-10 17:10:23,915 INFO  [main] SimpleJobLauncher:[org.springframework.batch.core.launch.support.SimpleJobLauncher] Job: [SimpleJob: [name=customerReportJob]] launched with the following parameters: [{run.id=28}]
+2022-05-10 17:10:24,180 INFO  [main] SimpleStepHandler:[org.springframework.batch.core.job.SimpleStepHandler] Executing step: [CreateData]
+2022-05-10 17:10:24,327 DEBUG [main] CreateWeatherData:[com.iqnext.tasklet.CreateWeatherData] CreateWeatherData taskelet Started
+2022-05-10 17:10:24,328 DEBUG [main] CreateWeatherData:[com.iqnext.tasklet.CreateWeatherData] Fetching Data from WeatherAPI
+2022-05-10 17:10:26,065 DEBUG [main] CreateWeatherData:[com.iqnext.tasklet.CreateWeatherData] DATA Fetched from WeatherAPI
+2022-05-10 17:10:26,216 DEBUG [main] CreateWeatherData:[com.iqnext.tasklet.CreateWeatherData] DATA Written to Database Successfully
+2022-05-10 17:10:26,353 INFO  [main] AbstractStep:[org.springframework.batch.core.step.AbstractStep] Step: [CreateData] executed in 2s173ms
+2022-05-10 17:10:26,479 INFO  [main] SimpleJobLauncher:[org.springframework.batch.core.launch.support.SimpleJobLauncher] Job: [SimpleJob: [name=customerReportJob]] completed with the following parameters: [{run.id=28}] and the following status: [COMPLETED] in 2s467ms
+#logback.classic pattern: %d %-5level [%thread] %logger{0}:[%c] %msg%n
+2022-05-10 17:15:56,555 INFO  [main] SpringBootTestContextBootstrapper:[org.springframework.boot.test.context.SpringBootTestContextBootstrapper] Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.iqnext.CreateWeatherDataApplicationTests], using SpringBootContextLoader
+2022-05-10 17:15:56,573 INFO  [main] AbstractContextLoader:[org.springframework.test.context.support.AbstractContextLoader] Could not detect default resource locations for test class [com.iqnext.CreateWeatherDataApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2022-05-10 17:15:56,576 INFO  [main] AnnotationConfigContextLoaderUtils:[org.springframework.test.context.support.AnnotationConfigContextLoaderUtils] Could not detect default configuration classes for test class [com.iqnext.CreateWeatherDataApplicationTests]: CreateWeatherDataApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2022-05-10 17:15:56,975 INFO  [main] SpringBootTestContextBootstrapper:[org.springframework.boot.test.context.SpringBootTestContextBootstrapper] Found @SpringBootConfiguration com.iqnext.CreateWeatherDataApplication for test class com.iqnext.CreateWeatherDataApplicationTests
+2022-05-10 17:15:57,297 INFO  [main] SpringBootTestContextBootstrapper:[org.springframework.boot.test.context.SpringBootTestContextBootstrapper] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2022-05-10 17:15:57,345 INFO  [main] SpringBootTestContextBootstrapper:[org.springframework.boot.test.context.SpringBootTestContextBootstrapper] Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@4089713, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@f19c9d2, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@7807ac2c, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@b91d8c4, org.springframework.test.context.support.DirtiesContextTestExecutionListener@4b6166aa, org.springframework.test.context.transaction.TransactionalTestExecutionListener@a77614d, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@4fd4cae3, org.springframework.test.context.event.EventPublishingTestExecutionListener@4a067c25, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@a1217f9, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@3bde62ff, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@523424b5, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@2baa8d82, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@319dead1, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@791cbf87]
+#logback.classic pattern: %d %-5level [%thread] %logger{0}:[%c] %msg%n
+2022-05-10 17:15:58,221 INFO  [main] CreateWeatherDataApplicationTests:[com.iqnext.CreateWeatherDataApplicationTests] Starting CreateWeatherDataApplicationTests using Java 17.0.2 on DESKTOP-4UB1T6N with PID 2500 (started by nimai in E:\ECLIPSE_WORKSPACE\CreateWeatherData)
+2022-05-10 17:15:58,223 DEBUG [main] CreateWeatherDataApplicationTests:[com.iqnext.CreateWeatherDataApplicationTests] Running with Spring Boot v2.6.7, Spring v5.3.19
+2022-05-10 17:15:58,225 INFO  [main] CreateWeatherDataApplicationTests:[com.iqnext.CreateWeatherDataApplicationTests] No active profile set, falling back to 1 default profile: "default"
+2022-05-10 17:15:59,875 INFO  [main] RepositoryConfigurationDelegate:[org.springframework.data.repository.config.RepositoryConfigurationDelegate] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-10 17:16:00,238 INFO  [main] RepositoryConfigurationDelegate:[org.springframework.data.repository.config.RepositoryConfigurationDelegate] Finished Spring Data repository scanning in 341 ms. Found 1 JPA repository interfaces.
+2022-05-10 17:16:01,325 INFO  [main] HikariDataSource:[com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting...
+2022-05-10 17:16:02,794 INFO  [main] HikariDataSource:[com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed.
+2022-05-10 17:16:03,733 INFO  [main] LogHelper:[org.hibernate.jpa.internal.util.LogHelper] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-10 17:16:03,887 INFO  [main] Version:[org.hibernate.Version] HHH000412: Hibernate ORM core version 5.6.8.Final
+2022-05-10 17:16:04,285 INFO  [main] Version:[org.hibernate.annotations.common.Version] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-05-10 17:16:04,590 INFO  [main] Dialect:[org.hibernate.dialect.Dialect] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-05-10 17:16:06,119 INFO  [main] JtaPlatformInitiator:[org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-10 17:16:06,137 INFO  [main] LocalContainerEntityManagerFactoryBean:[org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-10 17:16:08,960 WARN  [main] JpaBatchConfigurer:[org.springframework.boot.autoconfigure.batch.JpaBatchConfigurer] JPA does not support custom isolation levels, so locks may not be taken when launching Jobs
+2022-05-10 17:16:08,981 INFO  [main] JobRepositoryFactoryBean:[org.springframework.batch.core.repository.support.JobRepositoryFactoryBean] No database type set, using meta data indicating: MYSQL
+2022-05-10 17:16:09,046 INFO  [main] SimpleJobLauncher:[org.springframework.batch.core.launch.support.SimpleJobLauncher] No TaskExecutor has been set, defaulting to synchronous executor.
+2022-05-10 17:16:09,456 INFO  [main] CreateWeatherDataApplicationTests:[com.iqnext.CreateWeatherDataApplicationTests] Started CreateWeatherDataApplicationTests in 11.999 seconds (JVM running for 15.727)
+2022-05-10 17:16:09,461 INFO  [main] JobLauncherApplicationRunner:[org.springframework.boot.autoconfigure.batch.JobLauncherApplicationRunner] Running default command line with: []
+2022-05-10 17:16:10,032 INFO  [main] SimpleJobLauncher:[org.springframework.batch.core.launch.support.SimpleJobLauncher] Job: [SimpleJob: [name=customerReportJob]] launched with the following parameters: [{run.id=29}]
+2022-05-10 17:16:10,356 INFO  [main] SimpleStepHandler:[org.springframework.batch.core.job.SimpleStepHandler] Executing step: [CreateData]
+2022-05-10 17:16:10,536 DEBUG [main] CreateWeatherData:[com.iqnext.tasklet.CreateWeatherData] CreateWeatherData taskelet Started
+2022-05-10 17:16:10,536 DEBUG [main] CreateWeatherData:[com.iqnext.tasklet.CreateWeatherData] Fetching Data from WeatherAPI
+2022-05-10 17:16:12,601 DEBUG [main] CreateWeatherData:[com.iqnext.tasklet.CreateWeatherData] DATA Fetched from WeatherAPI
+2022-05-10 17:16:12,757 DEBUG [main] CreateWeatherData:[com.iqnext.tasklet.CreateWeatherData] DATA Written to Database Successfully
+2022-05-10 17:16:13,042 INFO  [main] AbstractStep:[org.springframework.batch.core.step.AbstractStep] Step: [CreateData] executed in 2s685ms
+2022-05-10 17:16:13,229 INFO  [main] SimpleJobLauncher:[org.springframework.batch.core.launch.support.SimpleJobLauncher] Job: [SimpleJob: [name=customerReportJob]] completed with the following parameters: [{run.id=29}] and the following status: [COMPLETED] in 3s48ms
+2022-05-10 17:16:15,918 INFO  [SpringApplicationShutdownHook] LocalContainerEntityManagerFactoryBean:[org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-10 17:16:15,925 INFO  [SpringApplicationShutdownHook] HikariDataSource:[com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown initiated...
+2022-05-10 17:16:15,966 INFO  [SpringApplicationShutdownHook] HikariDataSource:[com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown completed.
+#logback.classic pattern: %d %-5level [%thread] %logger{0}:[%c] %msg%n
+2022-05-10 17:16:51,489 INFO  [main] SpringBootTestContextBootstrapper:[org.springframework.boot.test.context.SpringBootTestContextBootstrapper] Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.iqnext.CreateWeatherDataApplicationTests], using SpringBootContextLoader
+2022-05-10 17:16:51,504 INFO  [main] AbstractContextLoader:[org.springframework.test.context.support.AbstractContextLoader] Could not detect default resource locations for test class [com.iqnext.CreateWeatherDataApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2022-05-10 17:16:51,506 INFO  [main] AnnotationConfigContextLoaderUtils:[org.springframework.test.context.support.AnnotationConfigContextLoaderUtils] Could not detect default configuration classes for test class [com.iqnext.CreateWeatherDataApplicationTests]: CreateWeatherDataApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2022-05-10 17:16:51,890 INFO  [main] SpringBootTestContextBootstrapper:[org.springframework.boot.test.context.SpringBootTestContextBootstrapper] Found @SpringBootConfiguration com.iqnext.CreateWeatherDataApplication for test class com.iqnext.CreateWeatherDataApplicationTests
+2022-05-10 17:16:52,236 INFO  [main] SpringBootTestContextBootstrapper:[org.springframework.boot.test.context.SpringBootTestContextBootstrapper] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2022-05-10 17:16:52,285 INFO  [main] SpringBootTestContextBootstrapper:[org.springframework.boot.test.context.SpringBootTestContextBootstrapper] Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@7cbee484, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@7f811d00, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@62923ee6, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@4089713, org.springframework.test.context.support.DirtiesContextTestExecutionListener@f19c9d2, org.springframework.test.context.transaction.TransactionalTestExecutionListener@7807ac2c, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@b91d8c4, org.springframework.test.context.event.EventPublishingTestExecutionListener@4b6166aa, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@a77614d, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@4fd4cae3, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@4a067c25, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@a1217f9, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@3bde62ff, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@523424b5]
+#logback.classic pattern: %d %-5level [%thread] %logger{0}:[%c] %msg%n
+2022-05-10 17:16:53,214 INFO  [main] CreateWeatherDataApplicationTests:[com.iqnext.CreateWeatherDataApplicationTests] Starting CreateWeatherDataApplicationTests using Java 17.0.2 on DESKTOP-4UB1T6N with PID 16376 (started by nimai in E:\ECLIPSE_WORKSPACE\CreateWeatherData)
+2022-05-10 17:16:53,216 DEBUG [main] CreateWeatherDataApplicationTests:[com.iqnext.CreateWeatherDataApplicationTests] Running with Spring Boot v2.6.7, Spring v5.3.19
+2022-05-10 17:16:53,218 INFO  [main] CreateWeatherDataApplicationTests:[com.iqnext.CreateWeatherDataApplicationTests] No active profile set, falling back to 1 default profile: "default"
+2022-05-10 17:16:55,159 INFO  [main] RepositoryConfigurationDelegate:[org.springframework.data.repository.config.RepositoryConfigurationDelegate] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-10 17:16:55,551 INFO  [main] RepositoryConfigurationDelegate:[org.springframework.data.repository.config.RepositoryConfigurationDelegate] Finished Spring Data repository scanning in 368 ms. Found 1 JPA repository interfaces.
+2022-05-10 17:16:56,753 INFO  [main] HikariDataSource:[com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting...
+2022-05-10 17:16:57,953 INFO  [main] HikariDataSource:[com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed.
+2022-05-10 17:16:58,810 INFO  [main] LogHelper:[org.hibernate.jpa.internal.util.LogHelper] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-10 17:16:58,974 INFO  [main] Version:[org.hibernate.Version] HHH000412: Hibernate ORM core version 5.6.8.Final
+2022-05-10 17:16:59,429 INFO  [main] Version:[org.hibernate.annotations.common.Version] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-05-10 17:16:59,817 INFO  [main] Dialect:[org.hibernate.dialect.Dialect] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-05-10 17:17:01,601 INFO  [main] JtaPlatformInitiator:[org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-10 17:17:01,622 INFO  [main] LocalContainerEntityManagerFactoryBean:[org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-10 17:17:04,347 WARN  [main] JpaBatchConfigurer:[org.springframework.boot.autoconfigure.batch.JpaBatchConfigurer] JPA does not support custom isolation levels, so locks may not be taken when launching Jobs
+2022-05-10 17:17:04,367 INFO  [main] JobRepositoryFactoryBean:[org.springframework.batch.core.repository.support.JobRepositoryFactoryBean] No database type set, using meta data indicating: MYSQL
+2022-05-10 17:17:04,451 INFO  [main] SimpleJobLauncher:[org.springframework.batch.core.launch.support.SimpleJobLauncher] No TaskExecutor has been set, defaulting to synchronous executor.
+2022-05-10 17:17:04,853 INFO  [main] CreateWeatherDataApplicationTests:[com.iqnext.CreateWeatherDataApplicationTests] Started CreateWeatherDataApplicationTests in 12.464 seconds (JVM running for 16.227)
+2022-05-10 17:17:04,858 INFO  [main] JobLauncherApplicationRunner:[org.springframework.boot.autoconfigure.batch.JobLauncherApplicationRunner] Running default command line with: []
+2022-05-10 17:17:05,395 INFO  [main] SimpleJobLauncher:[org.springframework.batch.core.launch.support.SimpleJobLauncher] Job: [SimpleJob: [name=customerReportJob]] launched with the following parameters: [{run.id=30}]
+2022-05-10 17:17:05,868 INFO  [main] SimpleStepHandler:[org.springframework.batch.core.job.SimpleStepHandler] Executing step: [CreateData]
+2022-05-10 17:17:06,250 DEBUG [main] CreateWeatherData:[com.iqnext.tasklet.CreateWeatherData] CreateWeatherData taskelet Started
+2022-05-10 17:17:06,251 DEBUG [main] CreateWeatherData:[com.iqnext.tasklet.CreateWeatherData] Fetching Data from WeatherAPI
+2022-05-10 17:17:08,340 DEBUG [main] CreateWeatherData:[com.iqnext.tasklet.CreateWeatherData] DATA Fetched from WeatherAPI
+2022-05-10 17:17:08,475 DEBUG [main] CreateWeatherData:[com.iqnext.tasklet.CreateWeatherData] DATA Written to Database Successfully
+2022-05-10 17:17:08,596 INFO  [main] AbstractStep:[org.springframework.batch.core.step.AbstractStep] Step: [CreateData] executed in 2s728ms
+2022-05-10 17:17:09,058 INFO  [main] SimpleJobLauncher:[org.springframework.batch.core.launch.support.SimpleJobLauncher] Job: [SimpleJob: [name=customerReportJob]] completed with the following parameters: [{run.id=30}] and the following status: [COMPLETED] in 3s467ms
+2022-05-10 17:17:11,761 INFO  [SpringApplicationShutdownHook] LocalContainerEntityManagerFactoryBean:[org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-10 17:17:11,764 INFO  [SpringApplicationShutdownHook] HikariDataSource:[com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown initiated...
+2022-05-10 17:17:11,785 INFO  [SpringApplicationShutdownHook] HikariDataSource:[com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown completed.
+#logback.classic pattern: %d %-5level [%thread] %logger{0}:[%c] %msg%n
+#logback.classic pattern: %d %-5level [%thread] %logger{0}:[%c] %msg%n
+2022-05-10 17:25:49,273 INFO  [main] CreateWeatherDataApplication:[com.iqnext.CreateWeatherDataApplication] Starting CreateWeatherDataApplication using Java 17.0.2 on DESKTOP-4UB1T6N with PID 17368 (E:\ECLIPSE_WORKSPACE\CreateWeatherData\target\classes started by nimai in E:\ECLIPSE_WORKSPACE\CreateWeatherData)
+2022-05-10 17:25:49,278 DEBUG [main] CreateWeatherDataApplication:[com.iqnext.CreateWeatherDataApplication] Running with Spring Boot v2.6.7, Spring v5.3.19
+2022-05-10 17:25:49,279 INFO  [main] CreateWeatherDataApplication:[com.iqnext.CreateWeatherDataApplication] No active profile set, falling back to 1 default profile: "default"
+2022-05-10 17:25:50,464 INFO  [main] RepositoryConfigurationDelegate:[org.springframework.data.repository.config.RepositoryConfigurationDelegate] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-10 17:25:50,772 INFO  [main] RepositoryConfigurationDelegate:[org.springframework.data.repository.config.RepositoryConfigurationDelegate] Finished Spring Data repository scanning in 292 ms. Found 1 JPA repository interfaces.
+2022-05-10 17:25:51,861 INFO  [main] HikariDataSource:[com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting...
+2022-05-10 17:25:53,013 INFO  [main] HikariDataSource:[com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed.
+2022-05-10 17:25:54,100 INFO  [main] LogHelper:[org.hibernate.jpa.internal.util.LogHelper] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-10 17:25:54,234 INFO  [main] Version:[org.hibernate.Version] HHH000412: Hibernate ORM core version 5.6.8.Final
+2022-05-10 17:25:54,623 INFO  [main] Version:[org.hibernate.annotations.common.Version] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-05-10 17:25:54,995 INFO  [main] Dialect:[org.hibernate.dialect.Dialect] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-05-10 17:25:56,431 INFO  [main] JtaPlatformInitiator:[org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-10 17:25:56,447 INFO  [main] LocalContainerEntityManagerFactoryBean:[org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-10 17:25:57,659 WARN  [main] JpaBatchConfigurer:[org.springframework.boot.autoconfigure.batch.JpaBatchConfigurer] JPA does not support custom isolation levels, so locks may not be taken when launching Jobs
+2022-05-10 17:25:57,671 INFO  [main] JobRepositoryFactoryBean:[org.springframework.batch.core.repository.support.JobRepositoryFactoryBean] No database type set, using meta data indicating: MYSQL
+2022-05-10 17:25:57,712 INFO  [main] SimpleJobLauncher:[org.springframework.batch.core.launch.support.SimpleJobLauncher] No TaskExecutor has been set, defaulting to synchronous executor.
+2022-05-10 17:25:58,262 INFO  [main] NettyWebServer:[org.springframework.boot.web.embedded.netty.NettyWebServer] Netty started on port 8080
+2022-05-10 17:25:58,281 INFO  [main] CreateWeatherDataApplication:[com.iqnext.CreateWeatherDataApplication] Started CreateWeatherDataApplication in 9.821 seconds (JVM running for 11.154)
+2022-05-10 17:25:58,283 INFO  [main] JobLauncherApplicationRunner:[org.springframework.boot.autoconfigure.batch.JobLauncherApplicationRunner] Running default command line with: []
+2022-05-10 17:26:00,288 INFO  [main] SimpleJobLauncher:[org.springframework.batch.core.launch.support.SimpleJobLauncher] Job: [SimpleJob: [name=customerReportJob]] launched with the following parameters: [{run.id=31}]
+2022-05-10 17:26:01,312 INFO  [main] SimpleStepHandler:[org.springframework.batch.core.job.SimpleStepHandler] Executing step: [CreateData]
+2022-05-10 17:26:01,745 DEBUG [main] CreateWeatherData:[com.iqnext.tasklet.CreateWeatherData] CreateWeatherData taskelet Started
+2022-05-10 17:26:01,746 DEBUG [main] CreateWeatherData:[com.iqnext.tasklet.CreateWeatherData] Fetching Data from WeatherAPI
+2022-05-10 17:26:03,304 DEBUG [main] CreateWeatherData:[com.iqnext.tasklet.CreateWeatherData] DATA Fetched from WeatherAPI
+2022-05-10 17:26:03,457 DEBUG [main] CreateWeatherData:[com.iqnext.tasklet.CreateWeatherData] DATA Written to Database Successfully
+2022-05-10 17:26:03,608 INFO  [main] AbstractStep:[org.springframework.batch.core.step.AbstractStep] Step: [CreateData] executed in 2s295ms
+2022-05-10 17:26:03,741 INFO  [main] SimpleJobLauncher:[org.springframework.batch.core.launch.support.SimpleJobLauncher] Job: [SimpleJob: [name=customerReportJob]] completed with the following parameters: [{run.id=31}] and the following status: [COMPLETED] in 3s336ms
+#logback.classic pattern: %d %-5level [%thread] %logger{0}:[%c] %msg%n
+#logback.classic pattern: %d %-5level [%thread] %logger{0}:[%c] %msg%n
+2022-05-10 17:28:22,959 INFO  [main] CreateWeatherDataApplication:[com.iqnext.CreateWeatherDataApplication] Starting CreateWeatherDataApplication using Java 17.0.2 on DESKTOP-4UB1T6N with PID 11036 (E:\ECLIPSE_WORKSPACE\CreateWeatherData\target\classes started by nimai in E:\ECLIPSE_WORKSPACE\CreateWeatherData)
+2022-05-10 17:28:22,964 DEBUG [main] CreateWeatherDataApplication:[com.iqnext.CreateWeatherDataApplication] Running with Spring Boot v2.6.7, Spring v5.3.19
+2022-05-10 17:28:22,966 INFO  [main] CreateWeatherDataApplication:[com.iqnext.CreateWeatherDataApplication] No active profile set, falling back to 1 default profile: "default"
+2022-05-10 17:28:24,358 INFO  [main] RepositoryConfigurationDelegate:[org.springframework.data.repository.config.RepositoryConfigurationDelegate] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-10 17:28:24,710 INFO  [main] RepositoryConfigurationDelegate:[org.springframework.data.repository.config.RepositoryConfigurationDelegate] Finished Spring Data repository scanning in 335 ms. Found 1 JPA repository interfaces.
+2022-05-10 17:28:25,896 INFO  [main] HikariDataSource:[com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting...
+2022-05-10 17:28:26,856 INFO  [main] HikariDataSource:[com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed.
+2022-05-10 17:28:27,244 INFO  [main] LogHelper:[org.hibernate.jpa.internal.util.LogHelper] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-10 17:28:27,403 INFO  [main] Version:[org.hibernate.Version] HHH000412: Hibernate ORM core version 5.6.8.Final
+2022-05-10 17:28:27,800 INFO  [main] Version:[org.hibernate.annotations.common.Version] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-05-10 17:28:28,103 INFO  [main] Dialect:[org.hibernate.dialect.Dialect] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-05-10 17:28:29,399 INFO  [main] JtaPlatformInitiator:[org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-10 17:28:29,419 INFO  [main] LocalContainerEntityManagerFactoryBean:[org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-10 17:28:30,470 WARN  [main] JpaBatchConfigurer:[org.springframework.boot.autoconfigure.batch.JpaBatchConfigurer] JPA does not support custom isolation levels, so locks may not be taken when launching Jobs
+2022-05-10 17:28:30,484 INFO  [main] JobRepositoryFactoryBean:[org.springframework.batch.core.repository.support.JobRepositoryFactoryBean] No database type set, using meta data indicating: MYSQL
+2022-05-10 17:28:30,553 INFO  [main] SimpleJobLauncher:[org.springframework.batch.core.launch.support.SimpleJobLauncher] No TaskExecutor has been set, defaulting to synchronous executor.
+2022-05-10 17:28:31,058 INFO  [main] NettyWebServer:[org.springframework.boot.web.embedded.netty.NettyWebServer] Netty started on port 8080
+2022-05-10 17:28:31,077 INFO  [main] CreateWeatherDataApplication:[com.iqnext.CreateWeatherDataApplication] Started CreateWeatherDataApplication in 9.072 seconds (JVM running for 10.612)
+2022-05-10 17:28:31,080 INFO  [main] JobLauncherApplicationRunner:[org.springframework.boot.autoconfigure.batch.JobLauncherApplicationRunner] Running default command line with: []
+2022-05-10 17:28:31,472 INFO  [main] SimpleJobLauncher:[org.springframework.batch.core.launch.support.SimpleJobLauncher] Job: [SimpleJob: [name=customerReportJob]] launched with the following parameters: [{run.id=32}]
+2022-05-10 17:28:31,749 INFO  [main] SimpleStepHandler:[org.springframework.batch.core.job.SimpleStepHandler] Executing step: [CreateData]
+2022-05-10 17:28:32,044 DEBUG [main] CreateWeatherData:[com.iqnext.tasklet.CreateWeatherData] CreateWeatherData taskelet Started
+2022-05-10 17:28:32,044 DEBUG [main] CreateWeatherData:[com.iqnext.tasklet.CreateWeatherData] Fetching Data from WeatherAPI
+2022-05-10 17:28:33,675 DEBUG [main] CreateWeatherData:[com.iqnext.tasklet.CreateWeatherData] DATA Fetched from WeatherAPI
+2022-05-10 17:28:33,857 DEBUG [main] CreateWeatherData:[com.iqnext.tasklet.CreateWeatherData] DATA Written to Database Successfully
+2022-05-10 17:28:33,971 INFO  [main] AbstractStep:[org.springframework.batch.core.step.AbstractStep] Step: [CreateData] executed in 2s222ms
+2022-05-10 17:28:34,185 INFO  [main] SimpleJobLauncher:[org.springframework.batch.core.launch.support.SimpleJobLauncher] Job: [SimpleJob: [name=customerReportJob]] completed with the following parameters: [{run.id=32}] and the following status: [COMPLETED] in 2s590ms
+2022-05-10 17:28:34,211 INFO  [SpringApplicationShutdownHook] LocalContainerEntityManagerFactoryBean:[org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-10 17:28:34,216 INFO  [SpringApplicationShutdownHook] HikariDataSource:[com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown initiated...
+2022-05-10 17:28:34,232 INFO  [SpringApplicationShutdownHook] HikariDataSource:[com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown completed.
+#logback.classic pattern: %d %-5level [%thread] %logger{0}:[%c] %msg%n
+2022-05-10 17:30:39,264 INFO  [main] SpringBootTestContextBootstrapper:[org.springframework.boot.test.context.SpringBootTestContextBootstrapper] Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.iqnext.CreateWeatherDataApplicationTests], using SpringBootContextLoader
+2022-05-10 17:30:39,280 INFO  [main] AbstractContextLoader:[org.springframework.test.context.support.AbstractContextLoader] Could not detect default resource locations for test class [com.iqnext.CreateWeatherDataApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2022-05-10 17:30:39,282 INFO  [main] AnnotationConfigContextLoaderUtils:[org.springframework.test.context.support.AnnotationConfigContextLoaderUtils] Could not detect default configuration classes for test class [com.iqnext.CreateWeatherDataApplicationTests]: CreateWeatherDataApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2022-05-10 17:30:39,639 INFO  [main] SpringBootTestContextBootstrapper:[org.springframework.boot.test.context.SpringBootTestContextBootstrapper] Found @SpringBootConfiguration com.iqnext.CreateWeatherDataApplication for test class com.iqnext.CreateWeatherDataApplicationTests
+2022-05-10 17:30:39,932 INFO  [main] SpringBootTestContextBootstrapper:[org.springframework.boot.test.context.SpringBootTestContextBootstrapper] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2022-05-10 17:30:39,987 INFO  [main] SpringBootTestContextBootstrapper:[org.springframework.boot.test.context.SpringBootTestContextBootstrapper] Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@4089713, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@f19c9d2, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@7807ac2c, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@b91d8c4, org.springframework.test.context.support.DirtiesContextTestExecutionListener@4b6166aa, org.springframework.test.context.transaction.TransactionalTestExecutionListener@a77614d, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@4fd4cae3, org.springframework.test.context.event.EventPublishingTestExecutionListener@4a067c25, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@a1217f9, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@3bde62ff, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@523424b5, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@2baa8d82, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@319dead1, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@791cbf87]
+#logback.classic pattern: %d %-5level [%thread] %logger{0}:[%c] %msg%n
+2022-05-10 17:30:40,850 INFO  [main] CreateWeatherDataApplicationTests:[com.iqnext.CreateWeatherDataApplicationTests] Starting CreateWeatherDataApplicationTests using Java 17.0.2 on DESKTOP-4UB1T6N with PID 12720 (started by nimai in E:\ECLIPSE_WORKSPACE\CreateWeatherData)
+2022-05-10 17:30:40,854 DEBUG [main] CreateWeatherDataApplicationTests:[com.iqnext.CreateWeatherDataApplicationTests] Running with Spring Boot v2.6.7, Spring v5.3.19
+2022-05-10 17:30:40,857 INFO  [main] CreateWeatherDataApplicationTests:[com.iqnext.CreateWeatherDataApplicationTests] No active profile set, falling back to 1 default profile: "default"
+2022-05-10 17:30:42,479 INFO  [main] RepositoryConfigurationDelegate:[org.springframework.data.repository.config.RepositoryConfigurationDelegate] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-10 17:30:42,832 INFO  [main] RepositoryConfigurationDelegate:[org.springframework.data.repository.config.RepositoryConfigurationDelegate] Finished Spring Data repository scanning in 323 ms. Found 1 JPA repository interfaces.
+2022-05-10 17:30:44,038 INFO  [main] HikariDataSource:[com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting...
+2022-05-10 17:30:45,258 INFO  [main] HikariDataSource:[com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed.
+2022-05-10 17:30:46,157 INFO  [main] LogHelper:[org.hibernate.jpa.internal.util.LogHelper] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-10 17:30:46,331 INFO  [main] Version:[org.hibernate.Version] HHH000412: Hibernate ORM core version 5.6.8.Final
+2022-05-10 17:30:46,964 INFO  [main] Version:[org.hibernate.annotations.common.Version] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-05-10 17:30:47,390 INFO  [main] Dialect:[org.hibernate.dialect.Dialect] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-05-10 17:30:49,334 INFO  [main] JtaPlatformInitiator:[org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-10 17:30:49,361 INFO  [main] LocalContainerEntityManagerFactoryBean:[org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-10 17:30:52,060 WARN  [main] JpaBatchConfigurer:[org.springframework.boot.autoconfigure.batch.JpaBatchConfigurer] JPA does not support custom isolation levels, so locks may not be taken when launching Jobs
+2022-05-10 17:30:52,080 INFO  [main] JobRepositoryFactoryBean:[org.springframework.batch.core.repository.support.JobRepositoryFactoryBean] No database type set, using meta data indicating: MYSQL
+2022-05-10 17:30:52,132 INFO  [main] SimpleJobLauncher:[org.springframework.batch.core.launch.support.SimpleJobLauncher] No TaskExecutor has been set, defaulting to synchronous executor.
+2022-05-10 17:30:52,528 INFO  [main] CreateWeatherDataApplicationTests:[com.iqnext.CreateWeatherDataApplicationTests] Started CreateWeatherDataApplicationTests in 12.44 seconds (JVM running for 16.01)
+2022-05-10 17:30:52,533 INFO  [main] JobLauncherApplicationRunner:[org.springframework.boot.autoconfigure.batch.JobLauncherApplicationRunner] Running default command line with: []
+2022-05-10 17:30:52,992 INFO  [main] SimpleJobLauncher:[org.springframework.batch.core.launch.support.SimpleJobLauncher] Job: [SimpleJob: [name=customerReportJob]] launched with the following parameters: [{run.id=33}]
+2022-05-10 17:30:53,567 INFO  [main] SimpleStepHandler:[org.springframework.batch.core.job.SimpleStepHandler] Executing step: [CreateData]
+2022-05-10 17:30:53,741 DEBUG [main] CreateWeatherData:[com.iqnext.tasklet.CreateWeatherData] CreateWeatherData taskelet Started
+2022-05-10 17:30:53,741 DEBUG [main] CreateWeatherData:[com.iqnext.tasklet.CreateWeatherData] Fetching Data from WeatherAPI
+2022-05-10 17:30:55,892 DEBUG [main] CreateWeatherData:[com.iqnext.tasklet.CreateWeatherData] DATA Fetched from WeatherAPI
+2022-05-10 17:30:56,035 DEBUG [main] CreateWeatherData:[com.iqnext.tasklet.CreateWeatherData] DATA Written to Database Successfully
+2022-05-10 17:30:56,160 INFO  [main] AbstractStep:[org.springframework.batch.core.step.AbstractStep] Step: [CreateData] executed in 2s591ms
+2022-05-10 17:30:56,495 INFO  [main] SimpleJobLauncher:[org.springframework.batch.core.launch.support.SimpleJobLauncher] Job: [SimpleJob: [name=customerReportJob]] completed with the following parameters: [{run.id=33}] and the following status: [COMPLETED] in 3s328ms
+2022-05-10 17:30:59,247 INFO  [SpringApplicationShutdownHook] LocalContainerEntityManagerFactoryBean:[org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-10 17:30:59,252 INFO  [SpringApplicationShutdownHook] HikariDataSource:[com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown initiated...
+2022-05-10 17:30:59,290 INFO  [SpringApplicationShutdownHook] HikariDataSource:[com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown completed.
